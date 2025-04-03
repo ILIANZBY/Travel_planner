@@ -1,0 +1,77 @@
+frontend/index.html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能旅行规划助手</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="container">
+            <header>
+                <i class="fas fa-plane-departure"></i>
+                <h1>智能旅行规划助手</h1>
+            </header>
+            <div class="form-container">
+                <div class="form-group">
+                    <label><i class="fas fa-map-marker-alt"></i> 出发城市：</label>
+                    <input v-model="formData.origin" type="text" placeholder="请输入出发城市">
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-map-marker"></i> 目的地：</label>
+                    <input v-model="formData.destination" type="text" placeholder="请输入目的地">
+                </div>
+                <div class="form-group">
+                    <label><i class="far fa-calendar-alt"></i> 出发日期：</label>
+                    <input v-model="formData.start_date" type="date">
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-clock"></i> 旅行天数：</label>
+                    <input v-model="formData.days" type="number" min="1">
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-money-bill-wave"></i> 预算（元）：</label>
+                    <input v-model="formData.budget" type="number" min="0">
+                </div>
+                <button @click="generatePlan" :disabled="loading" class="submit-btn">
+                    <i :class="loading ? 'fas fa-spinner fa-spin' : 'fas fa-paper-plane'"></i>
+                    {{ loading ? '生成中...' : '生成旅行计划' }}
+                </button>
+            </div>
+            
+            <!-- 进度提示 -->
+            <div v-if="loading" class="progress-container">
+                <div class="progress-step" :class="{ active: currentStep >= 1 }">
+                    <i class="fas fa-search"></i>
+                    <span>收集信息</span>
+                </div>
+                <div class="progress-step" :class="{ active: currentStep >= 2 }">
+                    <i class="fas fa-brain"></i>
+                    <span>AI规划中</span>
+                </div>
+                <div class="progress-step" :class="{ active: currentStep >= 3 }">
+                    <i class="fas fa-check-circle"></i>
+                    <span>生成完成</span>
+                </div>
+            </div>
+
+            <div v-if="result" class="result-container">
+                <h2><i class="fas fa-route"></i> 您的专属旅行计划</h2>
+                <div class="plan-content">
+                    <pre>{{ JSON.stringify(result, null, 2) }}</pre>
+                </div>
+            </div>
+            
+            <div v-if="error" class="error-message">
+                <i class="fas fa-exclamation-triangle"></i>
+                {{ error }}
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

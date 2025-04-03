@@ -1,0 +1,1 @@
+<div class="list-bd"><div class="from"><div class="station"></div></div><div class="mid"><div class="haoshi"></div></div><div class="to"><div class="station"></div></div><div class="rbox"><div class="price"></div><div class="tag-shihui h5hide"><div class="l">超实惠</div></div></div><button class="btn-orange btn-book h5hide">查看</button></div>

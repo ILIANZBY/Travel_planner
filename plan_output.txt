@@ -1,0 +1,34 @@
+{
+  "travel_plan": [
+    {
+      "days": 1,
+      "current_city": "从天津到秦皇岛",
+      "transportation": "TrainNumber: G7821, 从天津到秦皇岛, DepartureTime: 19:53, ArrivalTime: 21:24",
+      "attraction": "角山长城, 河北省秦皇岛市山海关区角山路",
+      "breakfast": "-",
+      "lunch": "-",
+      "dinner": "常品轩火锅烧烤",
+      "accommodation": "希岸酒店（秦皇島山海關老龍頭店）"
+    },
+    {
+      "days": 2,
+      "current_city": "秦皇岛",
+      "transportation": "-",
+      "attraction": "乐岛海洋王国, 秦皇岛市山海关区龙海大道148号",
+      "breakfast": "小白楼汤馆(蓝天家园店)",
+      "lunch": "远香居(西关综合市场店)",
+      "dinner": "川海情火锅(斌扬花苑店)",
+      "accommodation": "希岸酒店（秦皇島山海關老龍頭店）"
+    },
+    {
+      "days": 3,
+      "current_city": "从秦皇岛到天津",
+      "transportation": "TrainNumber: G1288, 从秦皇岛到天津, DepartureTime: 17:25, ArrivalTime: 18:37",
+      "attraction": "山海关王家大院, 河北省秦皇岛市山海关区古城东三条29号",
+      "breakfast": "福凯手工饺子·家常菜",
+      "lunch": "一品渝香干锅鸭头(山海关分店)",
+      "dinner": "-",
+      "accommodation": "-"
+    }
+  ]
+}

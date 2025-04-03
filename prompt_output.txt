@@ -1,0 +1,52 @@
+您是一位熟练的规划师。
+根据提供的信息和查询，请给我一个详细的计划，包括列车号（例如：T124）、住宿名称等具体信息。
+请注意，您计划中的所有信息应来自提供的参考信息。
+此外，所有细节应符合常识。符号 '-' 表示该信息不必要。例如，在提供的示例中，您不需要规划返回出发城市后的行程。当您在一天内前往两个城市时，应在“当前城市”部分注明，格式与示例中的相同（即，从 A 到 B）。
+
+一些字段的输出格式解释
+transportation: "TrainNumber: <TrainNumber>, <from_org_to_dest>, DepartureTime: <DepartureTime>, ArrivalTime: <ArrivalTime>"
+attraction: "<Name>, <Address>"
+accommodation: "<Name>"
+
+您必须遵循示例中给出的格式。
+请以 JSON 结构提供您的答案，如以下示例：
+
+***** Example Starts *****
+问题: 请设计一个从北京出发前往秦皇岛的旅行计划，为期3天，涵盖2024年4月1日至2024年4月3日，预算为2500人民币。
+Travel Plan in JSON format:
+{
+  'travel_plan': [
+  {'days': 1,
+  'current_city': '从北京到秦皇岛',
+  'transportation': 'TrainNumber: G9891, 从北京到秦皇岛, DepartureTime: 6:25, ArrivalTime: 08:56',
+  'attraction': '鼓楼, 秦皇岛市山海关区龙海大道1号老龙头景区海神庙内',
+  'breakfast': '任义烧烤(兴华商城1号楼店)',
+  'lunch': '君临麻辣香锅(西顺城小区店)',
+  'dinner': '',
+  'accommodation': '山海关沐海安澜海景别墅(老龙头店)'},
+ {'days': 2,
+  'current_city': '秦皇岛',
+  'transportation': '-',
+  'attraction': '悬阳洞, 秦皇岛市山海关区三道关村附近长寿山景区内.',
+  'breakfast': '小白楼汤馆(蓝天家园店)',
+  'lunch': '老菜馆(教军场路店)',
+  'dinner': '常品轩火锅烧烤',
+  'accommodation': '山海关沐海安澜海景别墅(老龙头店)'},
+ {'days': 3,
+  'current_city': '从秦皇岛到北京',
+  'transportation': 'TrainNumber: G9900, 从秦皇岛到北京, DepartureTime: 20:29, ArrivalTime: 22:10',
+  'attraction': '孟姜女庙, 河北省秦皇岛市山海关区望夫石村.',
+  'breakfast': '山海渔家(河南路)',
+  'lunch': '依铭轩浑锅(唐子寨碧海龙源小区店)',
+  'dinner': '金泽饭店',
+  'accommodation': '-'}
+ ]
+}
+***** Example Ends *****
+
+给定可用的参考信息: {'在秦皇岛的景点': [{'Name': '角山长城', 'Address': '河北省秦皇岛市山海关区角山路', 'Phone': '0335-8352639,0335-5152916', 'Latitude': None, 'Longitude': None, 'City': 'QingHuangDao'}, {'Name': '乐岛海洋王国', 'Address': '秦皇岛市山海关区龙海大道148号', 'Phone': '0335-5158888', 'Latitude': None, 'Longitude': None, 'City': 'QingHuangDao'}, {'Name': '山海关王家大院', 'Address': '河北省秦皇岛市山海关区古城东三条29号', 'Phone': '0335-5067700,0335-5067755', 'Latitude': None, 'Longitude': None, 'City': 'QingHuangDao'}, {'Name': '新澳海底世界', 'Address': '河北省秦皇岛市海港区河滨路81号', 'Phone': '0335-7826666', 'Latitude': None, 'Longitude': None, 'City': 'QingHuangDao'}, {'Name': '西港花园', 'Address': '河北省秦皇岛市海港区东山街与南山街交叉路口西侧', 'Phone': None, 'Latitude': None, 'Longitude': None, 'City': 'QingHuangDao'}, {'Name': '孟姜女庙', 'Address': '河北省秦皇岛市山海关区望夫石村', 'Phone': '0335-5153159', 'Latitude': None, 'Longitude': None, 'City': 'QingHuangDao'}, {'Name': '老龙头码头游船', 'Address': '秦皇岛市山海关区龙海大道1号老龙头景区内', 'Phone': '0335-5152225', 'Latitude': None, 'Longitude': None, 'City': 'QingHuangDao'}, {'Name': '寻仙1号游船', 'Address': '秦皇岛市海港区老港路与卫海路交汇处南500米秦皇岛港大码头内', 'Phone': '13102500370', 'Latitude': None, 'Longitude': None, 'City': 'QingHuangDao'}, {'Name': '秦皇岛野生动物园', 'Address': '秦皇岛市北戴河区滨海大道中段62号', 'Phone': '0335-4182205,0335-4182208', 'Latitude': None, 'Longitude': None, 'City': 'QingHuangDao'}, {'Name': '山海关古城景区', 'Address': '河北省秦皇岛市山海关南大街5-1', 'Phone': '0335-5051106', 'Latitude': None, 'Longitude': None, 'City': 'QingHuangDao'}], '在秦皇岛的酒店': [{'HotelName': '希岸酒店（秦皇島山海關老龍頭店）', 'ReviewRate': '4.6', 'Price': 'HK$277', 'Minimum': '1', 'RoomType': '双床房', 'HouseRules': 'No Smoking', 'MaximumOccupancy': '2', 'City': '秦皇岛'}, {'HotelName': '如家酒店·neo（秦皇島山海關火車站店）', 'ReviewRate': '4.7', 'Price': 'HK$277', 'Minimum': '1', 'RoomType': '双床房', 'HouseRules': 'No Smoking', 'MaximumOccupancy': '2', 'City': '秦皇岛'}, {'HotelName': '山海假日酒店（秦皇島站山海關區天下第一關景區古城店）', 'ReviewRate': '4.4', 'Price': 'HK$277', 'Minimum': '1', 'RoomType': '双床房', 'HouseRules': 'No Smoking', 'MaximumOccupancy': '2', 'City': '秦皇岛'}, {'HotelName': '星程酒店（秦皇島山海關火車站店）', 'ReviewRate': '4.7', 'Price': 'HK$277', 'Minimum': '1', 'RoomType': '双床房', 'HouseRules': 'No Smoking', 'MaximumOccupancy': '2', 'City': '秦皇岛'}, {'HotelName': '秦皇島嘉璇農家院', 'ReviewRate': '4.6', 'Price': 'HK$277', 'Minimum': '1', 'RoomType': '双床房', 'HouseRules': 'No Smoking', 'MaximumOccupancy': '2', 'City': '秦皇岛'}], '在秦皇岛的餐厅': [{'Name': '滇海谣云南斑鱼养生火锅(华粤小区店)', 'City': '秦皇岛市', 'Cuisines': '中餐厅;火锅店', 'Average Cost': '86.00', 'Aggregate Rating': '4.6'}, {'Name': '正宗东北饭店', 'City': '秦皇岛市', 'Cuisines': '餐饮相关场所;餐饮相关', 'Average Cost': [], 'Aggregate Rating': '4.0'}, {'Name': '远香居(西关综合市场店)', 'City': '秦皇岛市', 'Cuisines': '中餐厅;中餐厅', 'Average Cost': '49.00', 'Aggregate Rating': '4.4'}, {'Name': '常品轩火锅烧烤', 'City': '秦皇岛市', 'Cuisines': '中餐厅;火锅店|中餐厅;清真菜馆', 'Average Cost': '68.00', 'Aggregate Rating': '4.7'}, {'Name': '川海情火锅(斌扬花苑店)', 'City': '秦皇岛市', 'Cuisines': '中餐厅;火锅店', 'Average Cost': '64.00', 'Aggregate Rating': '4.7'}, {'Name': '孟家店火锅(徐凤芹饭店)', 'City': '秦皇岛市', 'Cuisines': '中餐厅;火锅店', 'Average Cost': '35.00', 'Aggregate Rating': '4.4'}, {'Name': '邱记太子锅', 'City': '秦皇岛市', 'Cuisines': '中餐厅;中餐厅', 'Average Cost': '61.00', 'Aggregate Rating': '4.2'}, {'Name': '阿里郎烧烤', 'City': '秦皇岛市', 'Cuisines': '中餐厅;特色/地方风味餐厅', 'Average Cost': '55.00', 'Aggregate Rating': '4.2'}, {'Name': '知味轩火锅烧烤(教军场路店)', 'City': '秦皇岛市', 'Cuisines': '中餐厅;火锅店', 'Average Cost': [], 'Aggregate Rating': '4.2'}, {'Name': '福凯手工饺子·家常菜', 'City': '秦皇岛市', 'Cuisines': '快餐厅;快餐厅', 'Average Cost': '30.00', 'Aggregate Rating': '4.7'}, {'Name': '我爱我家火锅店', 'City': '秦皇岛市', 'Cuisines': '中餐厅;火锅店', 'Average Cost': '70.00', 'Aggregate Rating': '4.0'}, {'Name': '小白楼汤馆(蓝天家园店)', 'City': '秦皇岛市', 'Cuisines': '中餐厅;中餐厅', 'Average Cost': '13.00', 'Aggregate Rating': '4.3'}, {'Name': '山海关清和浑锅店', 'City': '秦皇岛市', 'Cuisines': '中餐厅;中餐厅', 'Average Cost': '73.00', 'Aggregate Rating': '4.6'}, {'Name': '犇牛大块烤肉', 'City': '秦皇岛市', 'Cuisines': '餐饮相关场所;餐饮相关', 'Average Cost': '53.00', 'Aggregate Rating': '4.3'}, {'Name': '味中味', 'City': '秦皇岛市', 'Cuisines': '中餐厅;中餐厅', 'Average Cost': '42.00', 'Aggregate Rating': '4.4'}, {'Name': '凯钰酒楼', 'City': '秦皇岛市', 'Cuisines': '中餐厅;综合酒楼|住宿服务;宾馆酒店;宾馆酒店', 'Average Cost': '66.00', 'Aggregate Rating': '4.7'}, {'Name': '一品渝香干锅鸭头(山海关分店)', 'City': '秦皇岛市', 'Cuisines': '中餐厅;中餐厅', 'Average Cost': '85.00', 'Aggregate Rating': '4.2'}, {'Name': '傅家食坊(斌扬花苑店)', 'City': '秦皇岛市', 'Cuisines': '中餐厅;中餐厅', 'Average Cost': '525.00', 'Aggregate Rating': '4.5'}, {'Name': '一口猪东北菜', 'City': '秦皇岛市', 'Cuisines': '中餐厅;中餐厅', 'Average Cost': '48.00', 'Aggregate Rating': '4.7'}, {'Name': '肯德基(山海关店)', 'City': '秦皇岛市', 'Cuisines': '快餐厅;肯德基', 'Average Cost': '30.00', 'Aggregate Rating': '4.7'}], '从天津到秦皇岛的列车': [{'DepartureTime': '19:53', 'Duration': '1时31分', 'TrainNumber': 'G7821', 'ArrivalTime': '21:24', 'Price': '122', 'Distance': '-', 'OriginCity': '天津', 'DestCity': '秦皇岛', 'TrainDate': '2025-03-08'}, {'DepartureTime': '10:57', 'Duration': '1时47分', 'TrainNumber': 'G2648', 'ArrivalTime': '12:44', 'Price': '137', 'Distance': '-', 'OriginCity': '天津', 'DestCity': '秦皇岛', 'TrainDate': '2025-03-08'}, {'DepartureTime': '21:03', 'Duration': '4时18分', 'TrainNumber': 'K348', 'ArrivalTime': '01:21', 'Price': '46.5', 'Distance': '-', 'OriginCity': '天津', 'DestCity': '秦皇岛', 'TrainDate': '2025-03-08'}, {'DepartureTime': '13:50', 'Duration': '1时24分', 'TrainNumber': 'G1229', 'ArrivalTime': '15:14', 'Price': '122', 'Distance': '-', 'OriginCity': '天津', 'DestCity': '秦皇岛', 'TrainDate': '2025-03-08'}, {'DepartureTime': '13:36', 'Duration': None, 'ArrivalTime': '14:54', 'Price': '75.5', 'Distance': '-', 'OriginCity': '天津', 'DestCity': '秦皇岛', 'TrainDate': '2025-03-08', 'TrainNumber': 'G6273/G2627'}, {'DepartureTime': '15:44', 'Duration': '1时24分', 'TrainNumber': 'G3497', 'ArrivalTime': '17:08', 'Price': '122', 'Distance': '-', 'OriginCity': '天津', 'DestCity': '秦皇岛', 'TrainDate': '2025-03-08'}, {'DepartureTime': '17:01', 'Duration': '3时58分', 'TrainNumber': 'K127', 'ArrivalTime': '20:59', 'Price': '43.5', 'Distance': '-', 'OriginCity': '天津', 'DestCity': '秦皇岛', 'TrainDate': '2025-03-08'}, {'DepartureTime': '13:06', 'Duration': '1时36分', 'TrainNumber': 'G6273', 'ArrivalTime': '14:42', 'Price': '96', 'Distance': '-', 'OriginCity': '天津', 'DestCity': '秦皇岛', 'TrainDate': '2025-03-08'}, {'DepartureTime': '09:41', 'Duration': '1时20分', 'TrainNumber': 'G8927', 'ArrivalTime': '11:01', 'Price': '120', 'Distance': '-', 'OriginCity': '天津', 'DestCity': '秦皇岛', 'TrainDate': '2025-03-08'}, {'DepartureTime': '15:37', 'Duration': '1时17分', 'TrainNumber': 'G2651', 'ArrivalTime': '16:54', 'Price': '122', 'Distance': '-', 'OriginCity': '天津', 'DestCity': '秦皇岛', 'TrainDate': '2025-03-08'}], '从秦皇岛到天津的列车': [{'DepartureTime': '07:49', 'Duration': '3时39分', 'TrainNumber': 'K7736', 'ArrivalTime': '11:28', 'Price': '43.5', 'Distance': '-', 'OriginCity': '秦皇岛', 'DestCity': '天津', 'TrainDate': '2025-03-10'}, {'DepartureTime': '22:22', 'Duration': '2时37分', 'TrainNumber': 'Z102', 'ArrivalTime': '00:59', 'Price': '43.5', 'Distance': '-', 'OriginCity': '秦皇岛', 'DestCity': '天津', 'TrainDate': '2025-03-10'}, {'DepartureTime': '17:25', 'Duration': '1时12分', 'TrainNumber': 'G1288', 'ArrivalTime': '18:37', 'Price': '120', 'Distance': '-', 'OriginCity': '秦皇岛', 'DestCity': '天津', 'TrainDate': '2025-03-10'}, {'DepartureTime': '07:57', 'Duration': '3时58分', 'TrainNumber': 'K338', 'ArrivalTime': '11:55', 'Price': '46.5', 'Distance': '-', 'OriginCity': '秦皇岛', 'DestCity': '天津', 'TrainDate': '2025-03-10'}, {'DepartureTime': '13:16', 'Duration': '1时18分', 'TrainNumber': 'G2630', 'ArrivalTime': '14:34', 'Price': '122', 'Distance': '-', 'OriginCity': '秦皇岛', 'DestCity': '天津', 'TrainDate': '2025-03-10'}, {'DepartureTime': '20:35', 'Duration': '1时19分', 'TrainNumber': 'G8932', 'ArrivalTime': '21:54', 'Price': '96', 'Distance': '-', 'OriginCity': '秦皇岛', 'DestCity': '天津', 'TrainDate': '2025-03-10'}, {'DepartureTime': '14:06', 'Duration': '1时37分', 'TrainNumber': 'G2608', 'ArrivalTime': '15:43', 'Price': '120', 'Distance': '-', 'OriginCity': '秦皇岛', 'DestCity': '天津', 'TrainDate': '2025-03-10'}, {'DepartureTime': '19:48', 'Duration': '1时15分', 'TrainNumber': 'G2650', 'ArrivalTime': '21:03', 'Price': '122', 'Distance': '-', 'OriginCity': '秦皇岛', 'DestCity': '天津', 'TrainDate': '2025-03-10'}, {'DepartureTime': '14:01', 'Duration': '1时23分', 'TrainNumber': 'G1276', 'ArrivalTime': '15:24', 'Price': '122', 'Distance': '-', 'OriginCity': '秦皇岛', 'DestCity': '天津', 'TrainDate': '2025-03-10'}, {'DepartureTime': '14:56', 'Duration': '1时22分', 'TrainNumber': 'G1256', 'ArrivalTime': '16:18', 'Price': '122', 'Distance': '-', 'OriginCity': '秦皇岛', 'DestCity': '天津', 'TrainDate': '2025-03-10'}]}
+问题: 请设计一个从天津出发前往秦皇岛的旅行计划，为期3天，涵盖2025-03-08至2025-03-10，预算为3000人民币。
+
+请注意，您旅行计划中的所有信息（包括TrainNumber, accommodation, attraction, restaurants等）必须只能来自给定的参考信息中，同时您旅行计划中的餐厅，旅游景点不能出现重复。
+请不要输出其他内容，请确保输出的内容可以被 json.loads() 解析。
+Travel Plan in JSON format:

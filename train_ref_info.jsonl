@@ -1,0 +1,70 @@
+{
+    "在秦皇岛的景点": 
+    [{"Name": "山海关长城文化奇观园", "Latitude": 39.97531919572714, "Longitude": 119.8049934619364, "Address": "河北省秦皇岛市山海关区第一关镇老龙头景区", "Phone": "0335-5152996", "City": "QingHuangDao"}, 
+    {"Name": "镇东楼", "Latitude": 40.016279925474244, "Longitude": 119.76701562022996, "Address": "秦皇岛市山海关区城南5公里处天下第一关景区内", "Phone": "0335-5258000", "City": "QingHuangDao"}, 
+    {"Name": "孟姜女庙", "Latitude": 40.042704084807205, "Longitude": 119.83073853853016, "Address": "河北省秦皇岛市山海关区望夫石村", "Phone": "0335-5051359", "City": "QingHuangDao"}, 
+    {"Name": "妙手投篮", "Latitude": 39.961269101728014, "Longitude": 119.76192582121043, "Address": "秦皇岛市山海关区龙海大道148号乐岛公园海洋嘉年华内", "Phone": null, "City": "QingHuangDao"}, 
+    {"Name": "自控飞碟", "Latitude": 39.961269101728014, "Longitude": 119.76192582121043, "Address": "秦皇岛市山海关区龙海大道148号乐岛公园海洋嘉年华内", "Phone": null, "City": "QingHuangDao"}, 
+    {"Name": "华婴阳光孕婴童用品(山海关天大店)", "Latitude": 31.08924172361593, "Longitude": 121.27728484192797, "Address": "关城南路28号(人民医院正门斜对面)", "Phone": null, "City": "QingHuangDao"}, 
+    {"Name": "尚水洗浴(站西街店)", "Latitude": 40.002142359785665, "Longitude": 119.76185153134475, "Address": "秦皇岛市山海关区站西街山海关第一行车公寓西南侧约80米", "Phone": null, "City": "QingHuangDao"}, 
+    {"Name": "客堂", "Latitude": 40.01485935975987, "Longitude": 119.75873423156402, "Address": "秦皇岛市山海关区古城东北片区大悲院内", "Phone": null, "City": "QingHuangDao"}, 
+    {"Name": "白鹭岛第二海滨浴场", "Latitude": 39.95985505590555, "Longitude": 119.75355397317962, "Address": "河北省秦皇岛市山海关区龙海大道唐子寨对面", "Phone": null, "City": "QingHuangDao"}, 
+    {"Name": "小潮河城市滨河公园", "Latitude": 40.00836793598201, "Longitude": 119.83610321903575, "Address": "河北省秦皇岛市山海关区北京东道", "Phone": null, "City": "QingHuangDao"}], 
+    
+    "在秦皇岛的酒店": 
+    [{"HotelName": "山海关美居宾馆", "RoomType": "双床房", "Price": "¥54", "Minimum": "1", "Review_rate": "4.5", "HouseRules": "No Smoking", "MaximumOccupancy": "2", "City": "QinHuangDao"}, 
+    {"HotelName": "山海蓝湾假日公寓", "RoomType": "双床房", "Price": "¥107", "Minimum": "1", "Review_rate": "4.5", "HouseRules": "No Smoking", "MaximumOccupancy": "2", "City": "QinHuangDao"}, 
+    {"HotelName": "仙域4楼可看海民宿(天福中路1号分店)", "RoomType": "双床房", "Price": "¥458", "Minimum": "1", "Review_rate": "4.4", "HouseRules": "No Smoking", "MaximumOccupancy": "2", "City": "QinHuangDao"}, 
+    {"HotelName": "巴里岛假日风情酒店(秦皇岛山海关火车站店)", "RoomType": "双床房", "Price": "¥61", "Minimum": "1", "Review_rate": "4.1", "HouseRules": "No Smoking", "MaximumOccupancy": "2", "City": "QinHuangDao"}, 
+    {"HotelName": "秦皇岛中铁山桥招待所", "RoomType": "双床房", "Price": "¥173", "Minimum": "1", "Review_rate": "4.4", "HouseRules": "No Smoking", "MaximumOccupancy": "2", "City": "QinHuangDao"}], 
+    
+    "在秦皇岛的餐厅": 
+    [{"Name": "厨味甲", "City": "秦皇岛市", "Cuisines": "餐饮相关场所;餐饮相关", "Average Cost": [], "Aggregate Rating": "4.4"}, 
+    {"Name": "老吴烧烤(长城西街店)", "City": "秦皇岛市", "Cuisines": "中餐厅;特色/地方风味餐厅", "Average Cost": [], "Aggregate Rating": "4.3"}, 
+    {"Name": "龙起饭店(石河佳园东)", "City": "秦皇岛市", "Cuisines": "中餐厅;综合酒楼", "Average Cost": "29.00", "Aggregate Rating": "4.3"}, 
+    {"Name": "好来吃清真饭店", "City": "秦皇岛市", "Cuisines": "中餐厅;综合酒楼", "Average Cost": "63.00", "Aggregate Rating": "4.4"}, 
+    {"Name": "邂逅·海鲜联盟", "City": "秦皇岛市", "Cuisines": "中餐厅;海鲜酒楼", "Average Cost": [], "Aggregate Rating": "4.2"}, 
+    {"Name": "刘一锅筋头巴脑火锅城(平安里街店)", "City": "秦皇岛市", "Cuisines": "中餐厅;中餐厅", "Average Cost": "48.00", "Aggregate Rating": "4.1"}, 
+    {"Name": "滋香缘(石河商业楼店)", "City": "秦皇岛市", "Cuisines": "中餐厅;中餐厅", "Average Cost": "46.00", "Aggregate Rating": "4.0"}, 
+    {"Name": "山城老灶火锅(蓝天家园店)", "City": "秦皇岛市", "Cuisines": "中餐厅;火锅店", "Average Cost": [], "Aggregate Rating": "4.0"}, 
+    {"Name": "聚福阁", "City": "秦皇岛市", "Cuisines": "中餐厅;中餐厅", "Average Cost": [], "Aggregate Rating": "4.3"}, 
+    {"Name": "巴蜀渝味纸包鱼(水泉市场店)", "City": "秦皇岛市", "Cuisines": "中餐厅;特色/地方风味餐厅", "Average Cost": "49.00", "Aggregate Rating": "4.3"}, 
+    {"Name": "小炉子烧烤", "City": "秦皇岛市", "Cuisines": "中餐厅;综合酒楼", "Average Cost": [], "Aggregate Rating": "4.1"}, 
+    {"Name": "聚朋园饭店", "City": "秦皇岛市", "Cuisines": "中餐厅;中餐厅", "Average Cost": [], "Aggregate Rating": "4.3"}, 
+    {"Name": "华莱士·全鸡汉堡(山海关店)", "City": "秦皇岛市", "Cuisines": "快餐厅;快餐厅", "Average Cost": [], "Aggregate Rating": "4.4"}, 
+    {"Name": "德心圆饭店", "City": "秦皇岛市", "Cuisines": "中餐厅;综合酒楼", "Average Cost": "40.00", "Aggregate Rating": "4.3"}, 
+    {"Name": "原始人烤鱼烧烤店", "City": "秦皇岛市", "Cuisines": "餐饮相关场所;餐饮相关", "Average Cost": [], "Aggregate Rating": "4.3"}, 
+    {"Name": "老菜馆(教军场路店)", "City": "秦皇岛市", "Cuisines": "快餐厅;快餐厅", "Average Cost": [], "Aggregate Rating": "4.2"}, 
+    {"Name": "二刚烧烤(石河商业楼店)", "City": "秦皇岛市", "Cuisines": "中餐厅;特色/地方风味餐厅", "Average Cost": [], "Aggregate Rating": "4.2"}, 
+    {"Name": "旺山海蒸汽海鲜自助餐厅", "City": "秦皇岛市", "Cuisines": "中餐厅;海鲜酒楼", "Average Cost": "130.00", "Aggregate Rating": "4.3"}, 
+    {"Name": "吴学君清真烧麦馆", "City": "秦皇岛市", "Cuisines": "中餐厅;清真菜馆", "Average Cost": "25.00", "Aggregate Rating": "4.3"}, 
+    {"Name": "地锅时代铁锅炖(平安东里店)", "City": "秦皇岛市", "Cuisines": "中餐厅;中餐厅", "Average Cost": [], "Aggregate Rating": "4.3"}], 
+    
+    "从青岛到秦皇岛的列车": 
+    [{"TrainNumber": "K702", "Price": 128.5, "DepartureTime": "18:09", "ArrivalTime": "7:44", "Duration": "13时35分", "TrainDate": "2024/4/1", "OriginCity": "青岛", "DestCity": "秦皇岛", "Distance": "800km"}, 
+    {"TrainNumber": "G1248", "Price": 429.0, "DepartureTime": "8:12", "ArrivalTime": "13:50", "Duration": "5时38分", "TrainDate": "2024/4/2", "OriginCity": "青岛", "DestCity": "秦皇岛", "Distance": "800km"}, 
+    {"TrainNumber": "G1268", "Price": 409.0, "DepartureTime": "6:24", "ArrivalTime": "11:41", "Duration": "5时17分", "TrainDate": "2024/4/2", "OriginCity": "青岛", "DestCity": "秦皇岛", "Distance": "800km"}, 
+    {"TrainNumber": "G1268", "Price": 409.0, "DepartureTime": "6:24", "ArrivalTime": "11:41", "Duration": "5时17分", "TrainDate": "2024/4/1", "OriginCity": "青岛", "DestCity": "秦皇岛", "Distance": "800km"}, 
+    {"TrainNumber": "K702", "Price": 128.5, "DepartureTime": "18:09", "ArrivalTime": "7:44", "Duration": "13时35分", "TrainDate": "2024/4/2", "OriginCity": "青岛", "DestCity": "秦皇岛", "Distance": "800km"}, 
+    {"TrainNumber": "G1208", "Price": 413.0, "DepartureTime": "6:46", "ArrivalTime": "12:01", "Duration": "5时15分", "TrainDate": "2024/4/1", "OriginCity": "青岛", "DestCity": "秦皇岛", "Distance": "800km"}, 
+    {"TrainNumber": "K956", "Price": 128.5, "DepartureTime": "17:45", "ArrivalTime": "7:19", "Duration": "13时34分", "TrainDate": "2024/4/2", "OriginCity": "青岛", "DestCity": "秦皇岛", "Distance": "800km"}, 
+    {"TrainNumber": "K956", "Price": 128.5, "DepartureTime": "17:45", "ArrivalTime": "7:19", "Duration": "13时34分", "TrainDate": "2024/4/1", "OriginCity": "青岛", "DestCity": "秦皇岛", "Distance": "800km"}, 
+    {"TrainNumber": "G1208", "Price": 413.0, "DepartureTime": "6:46", "ArrivalTime": "12:01", "Duration": "5时15分", "TrainDate": "2024/4/2", "OriginCity": "青岛", "DestCity": "秦皇岛", "Distance": "800km"}, 
+    {"TrainNumber": "G1248", "Price": 429.0, "DepartureTime": "8:12", "ArrivalTime": "13:50", "Duration": "5时38分", "TrainDate": "2024/4/1", "OriginCity": "青岛", "DestCity": "秦皇岛", "Distance": "800km"}], 
+    
+    "从秦皇岛到青岛的列车": 
+    [{"TrainNumber": "G2630", "Price": 435.0, "DepartureTime": "13:16", "ArrivalTime": "18:35", "Duration": "5时19分", "TrainDate": "2024/4/1", "OriginCity": "秦皇岛", "DestCity": "青岛", "Distance": "800km"}, 
+    {"TrainNumber": "G2630", "Price": 435.0, "DepartureTime": "13:16", "ArrivalTime": "18:35", "Duration": "5时19分", "TrainDate": "2024/4/2", "OriginCity": "秦皇岛", "DestCity": "青岛", "Distance": "800km"}, 
+    {"TrainNumber": "G1206", "Price": 421.0, "DepartureTime": "13:40", "ArrivalTime": "19:05", "Duration": "5时25分", "TrainDate": "2024/4/2", "OriginCity": "秦皇岛", "DestCity": "青岛", "Distance": "800km"}, 
+    {"TrainNumber": "G1206", "Price": 421.0, "DepartureTime": "13:40", "ArrivalTime": "19:05", "Duration": "5时25分", "TrainDate": "2024/4/1", "OriginCity": "秦皇岛", "DestCity": "青岛", "Distance": "800km"}], 
+    
+    "从青岛到秦皇岛的航班": [], 
+    "从秦皇岛到青岛的航班": 
+    [{"FlightNumber": "FM9142/MU5563", "Price": 2467, "DepTime": "09:35", "ArrTime": "18:35", "ActualElapsedTime": "-", "OriginCityName": "秦皇岛", "DestCityName": "青岛", "Distance": "-", "FlightDate": "2024/4/1"}, 
+    {"FlightNumber": "AQ1182/JD5390", "Price": 679, "DepTime": "12:30", "ArrTime": "18:05", "ActualElapsedTime": "-", "OriginCityName": "秦皇岛", "DestCityName": "青岛", "Distance": "-", "FlightDate": "2024/4/2"}, 
+    {"FlightNumber": "AQ1182/QW9796", "Price": 709, "DepTime": "12:30", "ArrTime": "18:40", "ActualElapsedTime": "-", "OriginCityName": "秦皇岛", "DestCityName": "青岛", "Distance": "-", "FlightDate": "2024/4/1"}, 
+    {"FlightNumber": "AQ1182/JD5390", "Price": 679, "DepTime": "12:30", "ArrTime": "18:05", "ActualElapsedTime": "-", "OriginCityName": "秦皇岛", "DestCityName": "青岛", "Distance": "-", "FlightDate": "2024/4/1"}, 
+    {"FlightNumber": "FM9142/MU5563", "Price": 2467, "DepTime": "09:35", "ArrTime": "18:35", "ActualElapsedTime": "-", "OriginCityName": "秦皇岛", "DestCityName": "青岛", "Distance": "-", "FlightDate": "2024/4/2"}, 
+    {"FlightNumber": "AQ1182/QW9796", "Price": 709, "DepTime": "12:30", "ArrTime": "18:40", "ActualElapsedTime": "-", "OriginCityName": "秦皇岛", "DestCityName": "青岛", "Distance": "-", "FlightDate": "2024/4/2"}
+    ]
+}

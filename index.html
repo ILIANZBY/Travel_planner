@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅行计划生成器</title>
+    <style>
+        body {
+            font-family: '微软雅黑', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            background: #4CAF50;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        button:disabled {
+            background: #cccccc;
+            cursor: not-allowed;
+        }
+
+        .loading {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+            color: #4CAF50;
+            font-size: 18px;
+        }
+
+        .loading.active {
+            display: flex;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #4CAF50;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin-right: 15px;
+        }
+
+        .plan-result {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .plan-result.active {
+            display: block;
+        }
+
+        .error-message {
+            color: #ff4444;
+            margin-top: 15px;
+            display: none;
+        }
+
+        .error-message.active {
+            display: block;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>智能旅行计划生成器</h1>
+        
+        <div class="form-group">
+            <label>出发城市</label>
+            <input type="text" id="origin" placeholder="请输入出发城市，例如：广州">
+        </div>
+
+        <div class="form-group">
+            <label>目的地</label>
+            <input type="text" id="destination" placeholder="请输入旅行目的地，例如：秦皇岛">
+        </div>
+
+        <div class="form-group">
+            <label>出发日期</label>
+            <input type="date" id="startDate">
+        </div>
+
+        <div class="form-group">
+            <label>旅行天数</label>
+            <input type="number" id="days" min="1" placeholder="请输入天数，例如：3">
+        </div>
+
+        <div class="form-group">
+            <label>预算（元）</label>
+            <input type="number" id="budget" min="0" placeholder="请输入预算金额，例如：3000">
+        </div>
+
+        <button onclick="generatePlan()">生成旅行计划</button>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <span id="loadingText"></span>
+        </div>
+
+        <div class="error-message" id="errorMessage"></div>
+
+        <div class="plan-result" id="planResult">
+            <h2>您的旅行计划</h2>
+            <div id="planContent"></div>
+        </div>
+    </div>
+
+    <script>
+        function generatePlan() {
+            // 1. 获取表单数据
+            const origin = document.getElementById('origin').value.trim();
+            const destination = document.getElementById('destination').value.trim();
+            const startDate = document.getElementById('startDate').value;
+            const days = parseInt(document.getElementById('days').value) || 0;
+            const budget = parseInt(document.getElementById('budget').value) || 0;
+
+            // 2. 表单验证
+            const errorMessage = document.getElementById('errorMessage');
+            errorMessage.textContent = '';
+            errorMessage.classList.remove('active');
+
+            if (!origin || !destination || !startDate || days <= 0 || budget <= 0) {
+                errorMessage.textContent = '请填写所有字段并确保天数和预算为有效数字';
+                errorMessage.classList.add('active');
+                return;
+            }
+
+            // 3. 显示加载状态
+            // 显示加载状态
+            const loading = document.getElementById('loading');
+            const loadingText = document.getElementById('loadingText');
+            const button = document.querySelector('button');
+            
+            // 初始化加载提示
+            loadingText.textContent = '正在收集数据....';
+            loading.classList.add('active');
+            button.disabled = true;
+
+            // 设置10秒后的提示切换
+            loadingTimer = setTimeout(() => {
+                loadingText.textContent = '正在生成您的专属计划中...';
+            }, 10000);
+
+            // 4. 发送API请求
+            fetch('http://localhost:5000/api/generate-plan', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    origin,
+                    destination,
+                    start_date: startDate,
+                    days,
+                    budget
+                })
+            })
+            .then(response => {
+                // 关键修改：解析非2xx响应的错误信息
+                if (!response.ok) {
+                    return response.json().then(err => {
+                        // 抛出后端返回的错误信息
+                        throw new Error(err.message || '网络响应异常');
+                    });
+                }
+                return response.json();
+            })
+            .then(data => {
+                // 5. 处理成功响应
+                const planContent = document.getElementById('planContent');
+                planContent.innerHTML = `
+                    <h3>旅行计划详情</h3>
+                    <pre>${JSON.stringify(data.plan, null, 2)}</pre>
+                `;
+                document.getElementById('planResult').classList.add('active');
+            })
+            .catch(error => {
+                // 6. 处理错误
+                errorMessage.textContent = `生成失败：${error.message}`;
+                errorMessage.classList.add('active');
+            })
+            .finally(() => {
+                // 7. 重置加载状态
+                loading.classList.remove('active');
+                button.disabled = false;
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,4187 @@
+[
+{
+    "DepartureTime": null,
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": null,
+    "Price": null,
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "06:10",
+    "Duration": "5时59分",
+    "TrainNumber": "G101",
+    "ArrivalTime": "12:09",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "06:20",
+    "Duration": "5时38分",
+    "TrainNumber": "G103",
+    "ArrivalTime": "11:58",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:00",
+    "Duration": "4时29分",
+    "TrainNumber": "G1",
+    "ArrivalTime": "11:29",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:17",
+    "Duration": "5时46分",
+    "TrainNumber": "G105",
+    "ArrivalTime": "13:03",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:25",
+    "Duration": "5时47分",
+    "TrainNumber": "G107",
+    "ArrivalTime": "13:12",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:40",
+    "Duration": "4时52分",
+    "TrainNumber": "G3",
+    "ArrivalTime": "12:32",
+    "Price": "671",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:45",
+    "Duration": "6时4分",
+    "TrainNumber": "G109",
+    "ArrivalTime": "13:49",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "08:00",
+    "Duration": "4时32分",
+    "TrainNumber": "G3",
+    "ArrivalTime": "12:32",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "08:39",
+    "Duration": "6时22分",
+    "TrainNumber": "G113",
+    "ArrivalTime": "15:01",
+    "Price": "572",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": "4时37分",
+    "TrainNumber": "G5",
+    "ArrivalTime": "13:37",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:10",
+    "Duration": "5时38分",
+    "TrainNumber": "G115",
+    "ArrivalTime": "14:48",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:20",
+    "Duration": "5时35分",
+    "TrainNumber": "G117",
+    "ArrivalTime": "14:55",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:24",
+    "Duration": "6时7分",
+    "TrainNumber": "G119",
+    "ArrivalTime": "15:31",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G7",
+    "ArrivalTime": "14:35",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:05",
+    "Duration": "5时37分",
+    "TrainNumber": "G121",
+    "ArrivalTime": "15:42",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:48",
+    "Duration": "6时2分",
+    "TrainNumber": "G125",
+    "ArrivalTime": "16:50",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:00",
+    "Duration": "4时37分",
+    "TrainNumber": "G9",
+    "ArrivalTime": "15:37",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:05",
+    "Duration": "6时3分",
+    "TrainNumber": "G127",
+    "ArrivalTime": "17:08",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:18",
+    "Duration": "6时20分",
+    "TrainNumber": "G129",
+    "ArrivalTime": "17:38",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:27",
+    "Duration": "5时55分",
+    "TrainNumber": "G131",
+    "ArrivalTime": "17:22",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:50",
+    "Duration": "6时12分",
+    "TrainNumber": "G133",
+    "ArrivalTime": "18:02",
+    "Price": "604",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:00",
+    "Duration": "4时38分",
+    "TrainNumber": "G11",
+    "ArrivalTime": "16:38",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:01",
+    "Duration": "18时44分",
+    "TrainNumber": "1461",
+    "ArrivalTime": "06:45",
+    "Price": "156.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:08",
+    "Duration": "7时50分",
+    "TrainNumber": "G2573",
+    "ArrivalTime": "19:58",
+    "Price": "581",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:12",
+    "Duration": "6时9分",
+    "TrainNumber": "G135",
+    "ArrivalTime": "18:21",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:47",
+    "Duration": "6时12分",
+    "TrainNumber": "G137",
+    "ArrivalTime": "18:59",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G13",
+    "ArrivalTime": "17:35",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:04",
+    "Duration": "6时2分",
+    "TrainNumber": "G139",
+    "ArrivalTime": "19:06",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:34",
+    "Duration": "6时34分",
+    "TrainNumber": "G141",
+    "ArrivalTime": "20:08",
+    "Price": "630",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:00",
+    "Duration": "4时32分",
+    "TrainNumber": "G15",
+    "ArrivalTime": "18:32",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:27",
+    "Duration": "6时16分",
+    "TrainNumber": "G147",
+    "ArrivalTime": "20:43",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "15:00",
+    "Duration": "4时34分",
+    "TrainNumber": "G17",
+    "ArrivalTime": "19:34",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:00",
+    "Duration": "4时28分",
+    "TrainNumber": "G19",
+    "ArrivalTime": "20:28",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:30",
+    "Duration": "5时57分",
+    "TrainNumber": "G153",
+    "ArrivalTime": "22:27",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:53",
+    "Duration": "6时20分",
+    "TrainNumber": "G157",
+    "ArrivalTime": "23:13",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:00",
+    "Duration": "4时18分",
+    "TrainNumber": "G21",
+    "ArrivalTime": "21:18",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:19",
+    "Duration": "5时59分",
+    "TrainNumber": "G159",
+    "ArrivalTime": "23:18",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:33",
+    "Duration": "6时11分",
+    "TrainNumber": "G161",
+    "ArrivalTime": "23:44",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "18:00",
+    "Duration": "4时43分",
+    "TrainNumber": "G23",
+    "ArrivalTime": "22:43",
+    "Price": "631",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "18:04",
+    "Duration": "4时54分",
+    "TrainNumber": "G25",
+    "ArrivalTime": "22:58",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G27",
+    "ArrivalTime": "23:35",
+    "Price": "669",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:16",
+    "Duration": "12时15分",
+    "TrainNumber": "D17",
+    "ArrivalTime": "07:31",
+    "Price": "344",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:21",
+    "Duration": "12时59分",
+    "TrainNumber": "Z281",
+    "ArrivalTime": "08:20",
+    "Price": "177.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:22",
+    "Duration": "12时3分",
+    "TrainNumber": "D7",
+    "ArrivalTime": "07:25",
+    "Price": "338",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:36",
+    "Duration": "12时24分",
+    "TrainNumber": "D9",
+    "ArrivalTime": "08:00",
+    "Price": "317",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "20:03",
+    "Duration": "14时59分",
+    "TrainNumber": "T109",
+    "ArrivalTime": "11:02",
+    "Price": "177.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "21:15",
+    "Duration": "12时30分",
+    "TrainNumber": "D11",
+    "ArrivalTime": "09:45",
+    "Price": "321",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "21:21",
+    "Duration": "12时6分",
+    "TrainNumber": "D5",
+    "ArrivalTime": "09:27",
+    "Price": "383",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:00",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "18:42",
+    "Price": "672",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "13:53",
+    "Price": "666",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:00",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "18:59",
+    "Price": "668",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "18:04",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "23:13",
+    "Price": "632",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "14:06",
+    "Price": "666",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+}
+][
+{
+    "DepartureTime": null,
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": null,
+    "Price": null,
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "06:10",
+    "Duration": "5时59分",
+    "TrainNumber": "G101",
+    "ArrivalTime": "12:09",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "06:20",
+    "Duration": "5时38分",
+    "TrainNumber": "G103",
+    "ArrivalTime": "11:58",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:00",
+    "Duration": "4时29分",
+    "TrainNumber": "G1",
+    "ArrivalTime": "11:29",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:17",
+    "Duration": "5时46分",
+    "TrainNumber": "G105",
+    "ArrivalTime": "13:03",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:25",
+    "Duration": "5时47分",
+    "TrainNumber": "G107",
+    "ArrivalTime": "13:12",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:40",
+    "Duration": "4时52分",
+    "TrainNumber": "G3",
+    "ArrivalTime": "12:32",
+    "Price": "671",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:45",
+    "Duration": "6时4分",
+    "TrainNumber": "G109",
+    "ArrivalTime": "13:49",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "08:00",
+    "Duration": "4时32分",
+    "TrainNumber": "G3",
+    "ArrivalTime": "12:32",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "08:39",
+    "Duration": "6时22分",
+    "TrainNumber": "G113",
+    "ArrivalTime": "15:01",
+    "Price": "572",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": "4时37分",
+    "TrainNumber": "G5",
+    "ArrivalTime": "13:37",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:10",
+    "Duration": "5时38分",
+    "TrainNumber": "G115",
+    "ArrivalTime": "14:48",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:20",
+    "Duration": "5时35分",
+    "TrainNumber": "G117",
+    "ArrivalTime": "14:55",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:24",
+    "Duration": "6时7分",
+    "TrainNumber": "G119",
+    "ArrivalTime": "15:31",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G7",
+    "ArrivalTime": "14:35",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:05",
+    "Duration": "5时37分",
+    "TrainNumber": "G121",
+    "ArrivalTime": "15:42",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:48",
+    "Duration": "6时2分",
+    "TrainNumber": "G125",
+    "ArrivalTime": "16:50",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:00",
+    "Duration": "4时37分",
+    "TrainNumber": "G9",
+    "ArrivalTime": "15:37",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:05",
+    "Duration": "6时3分",
+    "TrainNumber": "G127",
+    "ArrivalTime": "17:08",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:18",
+    "Duration": "6时20分",
+    "TrainNumber": "G129",
+    "ArrivalTime": "17:38",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:27",
+    "Duration": "5时55分",
+    "TrainNumber": "G131",
+    "ArrivalTime": "17:22",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:50",
+    "Duration": "6时12分",
+    "TrainNumber": "G133",
+    "ArrivalTime": "18:02",
+    "Price": "604",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:00",
+    "Duration": "4时38分",
+    "TrainNumber": "G11",
+    "ArrivalTime": "16:38",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:01",
+    "Duration": "18时44分",
+    "TrainNumber": "1461",
+    "ArrivalTime": "06:45",
+    "Price": "156.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:08",
+    "Duration": "7时50分",
+    "TrainNumber": "G2573",
+    "ArrivalTime": "19:58",
+    "Price": "581",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:12",
+    "Duration": "6时9分",
+    "TrainNumber": "G135",
+    "ArrivalTime": "18:21",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:47",
+    "Duration": "6时12分",
+    "TrainNumber": "G137",
+    "ArrivalTime": "18:59",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G13",
+    "ArrivalTime": "17:35",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:04",
+    "Duration": "6时2分",
+    "TrainNumber": "G139",
+    "ArrivalTime": "19:06",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:34",
+    "Duration": "6时34分",
+    "TrainNumber": "G141",
+    "ArrivalTime": "20:08",
+    "Price": "630",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:00",
+    "Duration": "4时32分",
+    "TrainNumber": "G15",
+    "ArrivalTime": "18:32",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:27",
+    "Duration": "6时16分",
+    "TrainNumber": "G147",
+    "ArrivalTime": "20:43",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "15:00",
+    "Duration": "4时34分",
+    "TrainNumber": "G17",
+    "ArrivalTime": "19:34",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:00",
+    "Duration": "4时28分",
+    "TrainNumber": "G19",
+    "ArrivalTime": "20:28",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:30",
+    "Duration": "5时57分",
+    "TrainNumber": "G153",
+    "ArrivalTime": "22:27",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:53",
+    "Duration": "6时20分",
+    "TrainNumber": "G157",
+    "ArrivalTime": "23:13",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:00",
+    "Duration": "4时18分",
+    "TrainNumber": "G21",
+    "ArrivalTime": "21:18",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:19",
+    "Duration": "5时59分",
+    "TrainNumber": "G159",
+    "ArrivalTime": "23:18",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:33",
+    "Duration": "6时11分",
+    "TrainNumber": "G161",
+    "ArrivalTime": "23:44",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "18:00",
+    "Duration": "4时43分",
+    "TrainNumber": "G23",
+    "ArrivalTime": "22:43",
+    "Price": "631",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "18:04",
+    "Duration": "4时54分",
+    "TrainNumber": "G25",
+    "ArrivalTime": "22:58",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G27",
+    "ArrivalTime": "23:35",
+    "Price": "669",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:16",
+    "Duration": "12时15分",
+    "TrainNumber": "D17",
+    "ArrivalTime": "07:31",
+    "Price": "344",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:21",
+    "Duration": "12时59分",
+    "TrainNumber": "Z281",
+    "ArrivalTime": "08:20",
+    "Price": "177.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:22",
+    "Duration": "12时3分",
+    "TrainNumber": "D7",
+    "ArrivalTime": "07:25",
+    "Price": "338",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:36",
+    "Duration": "12时24分",
+    "TrainNumber": "D9",
+    "ArrivalTime": "08:00",
+    "Price": "317",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "20:03",
+    "Duration": "14时59分",
+    "TrainNumber": "T109",
+    "ArrivalTime": "11:02",
+    "Price": "177.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "21:15",
+    "Duration": "12时30分",
+    "TrainNumber": "D11",
+    "ArrivalTime": "09:45",
+    "Price": "321",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "21:21",
+    "Duration": "12时6分",
+    "TrainNumber": "D5",
+    "ArrivalTime": "09:27",
+    "Price": "383",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:00",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "18:42",
+    "Price": "672",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "13:53",
+    "Price": "666",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:00",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "18:59",
+    "Price": "668",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "18:04",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "23:13",
+    "Price": "632",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "14:06",
+    "Price": "666",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+}
+][
+{
+    "DepartureTime": null,
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": null,
+    "Price": null,
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "06:10",
+    "Duration": "5时59分",
+    "TrainNumber": "G101",
+    "ArrivalTime": "12:09",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "06:20",
+    "Duration": "5时38分",
+    "TrainNumber": "G103",
+    "ArrivalTime": "11:58",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:00",
+    "Duration": "4时29分",
+    "TrainNumber": "G1",
+    "ArrivalTime": "11:29",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:17",
+    "Duration": "5时46分",
+    "TrainNumber": "G105",
+    "ArrivalTime": "13:03",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:25",
+    "Duration": "5时47分",
+    "TrainNumber": "G107",
+    "ArrivalTime": "13:12",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:40",
+    "Duration": "4时52分",
+    "TrainNumber": "G3",
+    "ArrivalTime": "12:32",
+    "Price": "671",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:45",
+    "Duration": "6时4分",
+    "TrainNumber": "G109",
+    "ArrivalTime": "13:49",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "08:00",
+    "Duration": "4时32分",
+    "TrainNumber": "G3",
+    "ArrivalTime": "12:32",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "08:39",
+    "Duration": "6时22分",
+    "TrainNumber": "G113",
+    "ArrivalTime": "15:01",
+    "Price": "572",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": "4时37分",
+    "TrainNumber": "G5",
+    "ArrivalTime": "13:37",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:10",
+    "Duration": "5时38分",
+    "TrainNumber": "G115",
+    "ArrivalTime": "14:48",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:20",
+    "Duration": "5时35分",
+    "TrainNumber": "G117",
+    "ArrivalTime": "14:55",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:24",
+    "Duration": "6时7分",
+    "TrainNumber": "G119",
+    "ArrivalTime": "15:31",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G7",
+    "ArrivalTime": "14:35",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:05",
+    "Duration": "5时37分",
+    "TrainNumber": "G121",
+    "ArrivalTime": "15:42",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:48",
+    "Duration": "6时2分",
+    "TrainNumber": "G125",
+    "ArrivalTime": "16:50",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:00",
+    "Duration": "4时37分",
+    "TrainNumber": "G9",
+    "ArrivalTime": "15:37",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:05",
+    "Duration": "6时3分",
+    "TrainNumber": "G127",
+    "ArrivalTime": "17:08",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:18",
+    "Duration": "6时20分",
+    "TrainNumber": "G129",
+    "ArrivalTime": "17:38",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:27",
+    "Duration": "5时55分",
+    "TrainNumber": "G131",
+    "ArrivalTime": "17:22",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:50",
+    "Duration": "6时12分",
+    "TrainNumber": "G133",
+    "ArrivalTime": "18:02",
+    "Price": "604",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:00",
+    "Duration": "4时38分",
+    "TrainNumber": "G11",
+    "ArrivalTime": "16:38",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:01",
+    "Duration": "18时44分",
+    "TrainNumber": "1461",
+    "ArrivalTime": "06:45",
+    "Price": "156.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:08",
+    "Duration": "7时50分",
+    "TrainNumber": "G2573",
+    "ArrivalTime": "19:58",
+    "Price": "581",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:12",
+    "Duration": "6时9分",
+    "TrainNumber": "G135",
+    "ArrivalTime": "18:21",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:47",
+    "Duration": "6时12分",
+    "TrainNumber": "G137",
+    "ArrivalTime": "18:59",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G13",
+    "ArrivalTime": "17:35",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:04",
+    "Duration": "6时2分",
+    "TrainNumber": "G139",
+    "ArrivalTime": "19:06",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:34",
+    "Duration": "6时34分",
+    "TrainNumber": "G141",
+    "ArrivalTime": "20:08",
+    "Price": "630",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:00",
+    "Duration": "4时32分",
+    "TrainNumber": "G15",
+    "ArrivalTime": "18:32",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:27",
+    "Duration": "6时16分",
+    "TrainNumber": "G147",
+    "ArrivalTime": "20:43",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "15:00",
+    "Duration": "4时34分",
+    "TrainNumber": "G17",
+    "ArrivalTime": "19:34",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:00",
+    "Duration": "4时28分",
+    "TrainNumber": "G19",
+    "ArrivalTime": "20:28",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:30",
+    "Duration": "5时57分",
+    "TrainNumber": "G153",
+    "ArrivalTime": "22:27",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:53",
+    "Duration": "6时20分",
+    "TrainNumber": "G157",
+    "ArrivalTime": "23:13",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:00",
+    "Duration": "4时18分",
+    "TrainNumber": "G21",
+    "ArrivalTime": "21:18",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:19",
+    "Duration": "5时59分",
+    "TrainNumber": "G159",
+    "ArrivalTime": "23:18",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:33",
+    "Duration": "6时11分",
+    "TrainNumber": "G161",
+    "ArrivalTime": "23:44",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "18:00",
+    "Duration": "4时43分",
+    "TrainNumber": "G23",
+    "ArrivalTime": "22:43",
+    "Price": "631",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "18:04",
+    "Duration": "4时54分",
+    "TrainNumber": "G25",
+    "ArrivalTime": "22:58",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G27",
+    "ArrivalTime": "23:35",
+    "Price": "669",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:16",
+    "Duration": "12时15分",
+    "TrainNumber": "D17",
+    "ArrivalTime": "07:31",
+    "Price": "344",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:21",
+    "Duration": "12时59分",
+    "TrainNumber": "Z281",
+    "ArrivalTime": "08:20",
+    "Price": "177.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:22",
+    "Duration": "12时3分",
+    "TrainNumber": "D7",
+    "ArrivalTime": "07:25",
+    "Price": "338",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:36",
+    "Duration": "12时24分",
+    "TrainNumber": "D9",
+    "ArrivalTime": "08:00",
+    "Price": "317",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "20:03",
+    "Duration": "14时59分",
+    "TrainNumber": "T109",
+    "ArrivalTime": "11:02",
+    "Price": "177.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "21:15",
+    "Duration": "12时30分",
+    "TrainNumber": "D11",
+    "ArrivalTime": "09:45",
+    "Price": "321",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "21:21",
+    "Duration": "12时6分",
+    "TrainNumber": "D5",
+    "ArrivalTime": "09:27",
+    "Price": "383",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:00",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "18:42",
+    "Price": "672",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "13:53",
+    "Price": "666",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:00",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "18:59",
+    "Price": "668",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "18:04",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "23:13",
+    "Price": "632",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": "14:06",
+    "Price": "666",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+}
+][
+{
+    "DepartureTime": null,
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": null,
+    "Price": null,
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "06:10",
+    "Duration": "5时59分",
+    "TrainNumber": "G101",
+    "ArrivalTime": "12:09",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "06:20",
+    "Duration": "5时38分",
+    "TrainNumber": "G103",
+    "ArrivalTime": "11:58",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:00",
+    "Duration": "4时29分",
+    "TrainNumber": "G1",
+    "ArrivalTime": "11:29",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:17",
+    "Duration": "5时46分",
+    "TrainNumber": "G105",
+    "ArrivalTime": "13:03",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:25",
+    "Duration": "5时47分",
+    "TrainNumber": "G107",
+    "ArrivalTime": "13:12",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:40",
+    "Duration": "4时52分",
+    "TrainNumber": "G3",
+    "ArrivalTime": "12:32",
+    "Price": "671",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:45",
+    "Duration": "6时4分",
+    "TrainNumber": "G109",
+    "ArrivalTime": "13:49",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "08:00",
+    "Duration": "4时32分",
+    "TrainNumber": "G3",
+    "ArrivalTime": "12:32",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "08:39",
+    "Duration": "6时22分",
+    "TrainNumber": "G113",
+    "ArrivalTime": "15:01",
+    "Price": "572",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": "4时37分",
+    "TrainNumber": "G5",
+    "ArrivalTime": "13:37",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:10",
+    "Duration": "5时38分",
+    "TrainNumber": "G115",
+    "ArrivalTime": "14:48",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:20",
+    "Duration": "5时35分",
+    "TrainNumber": "G117",
+    "ArrivalTime": "14:55",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:24",
+    "Duration": "6时7分",
+    "TrainNumber": "G119",
+    "ArrivalTime": "15:31",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G7",
+    "ArrivalTime": "14:35",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:05",
+    "Duration": "5时37分",
+    "TrainNumber": "G121",
+    "ArrivalTime": "15:42",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:48",
+    "Duration": "6时2分",
+    "TrainNumber": "G125",
+    "ArrivalTime": "16:50",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:00",
+    "Duration": "4时37分",
+    "TrainNumber": "G9",
+    "ArrivalTime": "15:37",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:05",
+    "Duration": "6时3分",
+    "TrainNumber": "G127",
+    "ArrivalTime": "17:08",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:18",
+    "Duration": "6时20分",
+    "TrainNumber": "G129",
+    "ArrivalTime": "17:38",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:27",
+    "Duration": "5时55分",
+    "TrainNumber": "G131",
+    "ArrivalTime": "17:22",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:50",
+    "Duration": "6时12分",
+    "TrainNumber": "G133",
+    "ArrivalTime": "18:02",
+    "Price": "604",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:00",
+    "Duration": "4时38分",
+    "TrainNumber": "G11",
+    "ArrivalTime": "16:38",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:01",
+    "Duration": "18时44分",
+    "TrainNumber": "1461",
+    "ArrivalTime": "06:45",
+    "Price": "156.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:08",
+    "Duration": "7时50分",
+    "TrainNumber": "G2573",
+    "ArrivalTime": "19:58",
+    "Price": "581",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:12",
+    "Duration": "6时9分",
+    "TrainNumber": "G135",
+    "ArrivalTime": "18:21",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:47",
+    "Duration": "6时12分",
+    "TrainNumber": "G137",
+    "ArrivalTime": "18:59",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G13",
+    "ArrivalTime": "17:35",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:04",
+    "Duration": "6时2分",
+    "TrainNumber": "G139",
+    "ArrivalTime": "19:06",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:34",
+    "Duration": "6时34分",
+    "TrainNumber": "G141",
+    "ArrivalTime": "20:08",
+    "Price": "630",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:00",
+    "Duration": "4时32分",
+    "TrainNumber": "G15",
+    "ArrivalTime": "18:32",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:27",
+    "Duration": "6时16分",
+    "TrainNumber": "G147",
+    "ArrivalTime": "20:43",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "15:00",
+    "Duration": "4时34分",
+    "TrainNumber": "G17",
+    "ArrivalTime": "19:34",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:00",
+    "Duration": "4时28分",
+    "TrainNumber": "G19",
+    "ArrivalTime": "20:28",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:30",
+    "Duration": "5时57分",
+    "TrainNumber": "G153",
+    "ArrivalTime": "22:27",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:53",
+    "Duration": "6时20分",
+    "TrainNumber": "G157",
+    "ArrivalTime": "23:13",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:00",
+    "Duration": "4时18分",
+    "TrainNumber": "G21",
+    "ArrivalTime": "21:18",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:19",
+    "Duration": "5时59分",
+    "TrainNumber": "G159",
+    "ArrivalTime": "23:18",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:33",
+    "Duration": "6时11分",
+    "TrainNumber": "G161",
+    "ArrivalTime": "23:44",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "18:00",
+    "Duration": "4时43分",
+    "TrainNumber": "G23",
+    "ArrivalTime": "22:43",
+    "Price": "631",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "18:04",
+    "Duration": "4时54分",
+    "TrainNumber": "G25",
+    "ArrivalTime": "22:58",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G27",
+    "ArrivalTime": "23:35",
+    "Price": "669",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:16",
+    "Duration": "12时15分",
+    "TrainNumber": "D17",
+    "ArrivalTime": "07:31",
+    "Price": "344",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:21",
+    "Duration": "12时59分",
+    "TrainNumber": "Z281",
+    "ArrivalTime": "08:20",
+    "Price": "177.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:22",
+    "Duration": "12时3分",
+    "TrainNumber": "D7",
+    "ArrivalTime": "07:25",
+    "Price": "338",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:36",
+    "Duration": "12时24分",
+    "TrainNumber": "D9",
+    "ArrivalTime": "08:00",
+    "Price": "317",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "20:03",
+    "Duration": "14时59分",
+    "TrainNumber": "T109",
+    "ArrivalTime": "11:02",
+    "Price": "177.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "21:15",
+    "Duration": "12时30分",
+    "TrainNumber": "D11",
+    "ArrivalTime": "09:45",
+    "Price": "321",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "21:21",
+    "Duration": "12时6分",
+    "TrainNumber": "D5",
+    "ArrivalTime": "09:27",
+    "Price": "383",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+}
+][
+{
+    "DepartureTime": null,
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": null,
+    "Price": null,
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "00:22",
+    "Duration": "6时11分",
+    "TrainNumber": "K7731",
+    "ArrivalTime": "06:33",
+    "Price": "62.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "04:50",
+    "Duration": "6时37分",
+    "TrainNumber": "K4609",
+    "ArrivalTime": "11:27",
+    "Price": "62.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "06:00",
+    "Duration": "3时35分",
+    "TrainNumber": "T5685",
+    "ArrivalTime": "09:35",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "06:11",
+    "Duration": "4时57分",
+    "TrainNumber": "K4017",
+    "ArrivalTime": "11:08",
+    "Price": "62.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "08:15",
+    "Duration": "3时35分",
+    "TrainNumber": "K7719",
+    "ArrivalTime": "11:50",
+    "Price": "66.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": "2时1分",
+    "TrainNumber": "G8927",
+    "ArrivalTime": "11:01",
+    "Price": "162.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "09:19",
+    "Duration": "2时55分",
+    "TrainNumber": "T4161",
+    "ArrivalTime": "12:14",
+    "Price": "66.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "09:41",
+    "Duration": "3时22分",
+    "TrainNumber": "T5687",
+    "ArrivalTime": "13:03",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "10:20",
+    "Duration": "1时38分",
+    "TrainNumber": "G9921",
+    "ArrivalTime": "11:58",
+    "Price": "148.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:15",
+    "Duration": "3时39分",
+    "TrainNumber": "K339",
+    "ArrivalTime": "14:54",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:23",
+    "Duration": "2时35分",
+    "TrainNumber": "C115",
+    "ArrivalTime": "13:58",
+    "Price": "92",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:35",
+    "Duration": "3时29分",
+    "TrainNumber": "K429",
+    "ArrivalTime": "15:04",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:49",
+    "Duration": "3时55分",
+    "TrainNumber": "K1301",
+    "ArrivalTime": "15:44",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "12:02",
+    "Duration": "2时12分",
+    "TrainNumber": "D503",
+    "ArrivalTime": "14:14",
+    "Price": "126.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "12:43",
+    "Duration": "1时49分",
+    "TrainNumber": "G489",
+    "ArrivalTime": "14:32",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "13:41",
+    "Duration": "1时52分",
+    "TrainNumber": "G8929",
+    "ArrivalTime": "15:33",
+    "Price": "162.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "13:52",
+    "Duration": "1时52分",
+    "TrainNumber": "D507",
+    "ArrivalTime": "15:44",
+    "Price": "126.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "13:58",
+    "Duration": "3时17分",
+    "TrainNumber": "K7717",
+    "ArrivalTime": "17:15",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "14:37",
+    "Duration": "3时7分",
+    "TrainNumber": "K1023",
+    "ArrivalTime": "17:44",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "14:45",
+    "Duration": "1时57分",
+    "TrainNumber": "G491",
+    "ArrivalTime": "16:42",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:02",
+    "Duration": "4时8分",
+    "TrainNumber": "K349",
+    "ArrivalTime": "19:10",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:09",
+    "Duration": "3时51分",
+    "TrainNumber": "K383",
+    "ArrivalTime": "19:00",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:41",
+    "Duration": "1时56分",
+    "TrainNumber": "G497",
+    "ArrivalTime": "17:37",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:43",
+    "Duration": "2时53分",
+    "TrainNumber": "Z14",
+    "ArrivalTime": "18:36",
+    "Price": "46.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:47",
+    "Duration": "2时24分",
+    "TrainNumber": "G9923",
+    "ArrivalTime": "18:11",
+    "Price": "148.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "16:25",
+    "Duration": "3时55分",
+    "TrainNumber": "K1303",
+    "ArrivalTime": "20:20",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "16:45",
+    "Duration": "3时11分",
+    "TrainNumber": "T17",
+    "ArrivalTime": "19:56",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:16",
+    "Duration": "2时31分",
+    "TrainNumber": "Z83",
+    "ArrivalTime": "20:47",
+    "Price": "135.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:22",
+    "Duration": "1时53分",
+    "TrainNumber": "G8931",
+    "ArrivalTime": "20:15",
+    "Price": "174.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:51",
+    "Duration": "2时21分",
+    "TrainNumber": "G8831",
+    "ArrivalTime": "21:12",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:58",
+    "Duration": "2时40分",
+    "TrainNumber": "T47",
+    "ArrivalTime": "21:38",
+    "Price": "89.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "21:32",
+    "Duration": "3时35分",
+    "TrainNumber": "K959",
+    "ArrivalTime": "01:07",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+}
+][
+
+][
+{
+    "DepartureTime": null,
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": null,
+    "Price": null,
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "00:22",
+    "Duration": "6时11分",
+    "TrainNumber": "K7731",
+    "ArrivalTime": "06:33",
+    "Price": "62.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "04:50",
+    "Duration": "6时37分",
+    "TrainNumber": "K4609",
+    "ArrivalTime": "11:27",
+    "Price": "62.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "06:00",
+    "Duration": "3时35分",
+    "TrainNumber": "T5685",
+    "ArrivalTime": "09:35",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "06:11",
+    "Duration": "4时57分",
+    "TrainNumber": "K4017",
+    "ArrivalTime": "11:08",
+    "Price": "62.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "08:15",
+    "Duration": "3时35分",
+    "TrainNumber": "K7719",
+    "ArrivalTime": "11:50",
+    "Price": "66.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": "2时1分",
+    "TrainNumber": "G8927",
+    "ArrivalTime": "11:01",
+    "Price": "162.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "09:19",
+    "Duration": "2时55分",
+    "TrainNumber": "T4161",
+    "ArrivalTime": "12:14",
+    "Price": "66.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "09:41",
+    "Duration": "3时22分",
+    "TrainNumber": "T5687",
+    "ArrivalTime": "13:03",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "10:20",
+    "Duration": "1时38分",
+    "TrainNumber": "G9921",
+    "ArrivalTime": "11:58",
+    "Price": "148.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:15",
+    "Duration": "3时39分",
+    "TrainNumber": "K339",
+    "ArrivalTime": "14:54",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:23",
+    "Duration": "2时35分",
+    "TrainNumber": "C115",
+    "ArrivalTime": "13:58",
+    "Price": "92",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:35",
+    "Duration": "3时29分",
+    "TrainNumber": "K429",
+    "ArrivalTime": "15:04",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:49",
+    "Duration": "3时55分",
+    "TrainNumber": "K1301",
+    "ArrivalTime": "15:44",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "12:02",
+    "Duration": "2时12分",
+    "TrainNumber": "D503",
+    "ArrivalTime": "14:14",
+    "Price": "126.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "12:43",
+    "Duration": "1时49分",
+    "TrainNumber": "G489",
+    "ArrivalTime": "14:32",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "13:41",
+    "Duration": "1时52分",
+    "TrainNumber": "G8929",
+    "ArrivalTime": "15:33",
+    "Price": "162.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "13:52",
+    "Duration": "1时52分",
+    "TrainNumber": "D507",
+    "ArrivalTime": "15:44",
+    "Price": "126.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "13:58",
+    "Duration": "3时17分",
+    "TrainNumber": "K7717",
+    "ArrivalTime": "17:15",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "14:37",
+    "Duration": "3时7分",
+    "TrainNumber": "K1023",
+    "ArrivalTime": "17:44",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "14:45",
+    "Duration": "1时57分",
+    "TrainNumber": "G491",
+    "ArrivalTime": "16:42",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:02",
+    "Duration": "4时8分",
+    "TrainNumber": "K349",
+    "ArrivalTime": "19:10",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:09",
+    "Duration": "3时51分",
+    "TrainNumber": "K383",
+    "ArrivalTime": "19:00",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:41",
+    "Duration": "1时56分",
+    "TrainNumber": "G497",
+    "ArrivalTime": "17:37",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:43",
+    "Duration": "2时53分",
+    "TrainNumber": "Z14",
+    "ArrivalTime": "18:36",
+    "Price": "46.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:47",
+    "Duration": "2时24分",
+    "TrainNumber": "G9923",
+    "ArrivalTime": "18:11",
+    "Price": "148.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "16:25",
+    "Duration": "3时55分",
+    "TrainNumber": "K1303",
+    "ArrivalTime": "20:20",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "16:45",
+    "Duration": "3时11分",
+    "TrainNumber": "T17",
+    "ArrivalTime": "19:56",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:16",
+    "Duration": "2时31分",
+    "TrainNumber": "Z83",
+    "ArrivalTime": "20:47",
+    "Price": "135.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:22",
+    "Duration": "1时53分",
+    "TrainNumber": "G8931",
+    "ArrivalTime": "20:15",
+    "Price": "174.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:51",
+    "Duration": "2时21分",
+    "TrainNumber": "G8831",
+    "ArrivalTime": "21:12",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:58",
+    "Duration": "2时40分",
+    "TrainNumber": "T47",
+    "ArrivalTime": "21:38",
+    "Price": "89.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "21:32",
+    "Duration": "3时35分",
+    "TrainNumber": "K959",
+    "ArrivalTime": "01:07",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+}
+][
+{
+    "DepartureTime": null,
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": null,
+    "Price": null,
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "00:22",
+    "Duration": "6时11分",
+    "TrainNumber": "K7731",
+    "ArrivalTime": "06:33",
+    "Price": "62.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "04:50",
+    "Duration": "6时37分",
+    "TrainNumber": "K4609",
+    "ArrivalTime": "11:27",
+    "Price": "62.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "06:00",
+    "Duration": "3时35分",
+    "TrainNumber": "T5685",
+    "ArrivalTime": "09:35",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "06:11",
+    "Duration": "4时57分",
+    "TrainNumber": "K4017",
+    "ArrivalTime": "11:08",
+    "Price": "62.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "08:15",
+    "Duration": "3时35分",
+    "TrainNumber": "K7719",
+    "ArrivalTime": "11:50",
+    "Price": "66.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": "2时1分",
+    "TrainNumber": "G8927",
+    "ArrivalTime": "11:01",
+    "Price": "162.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "09:19",
+    "Duration": "2时55分",
+    "TrainNumber": "T4161",
+    "ArrivalTime": "12:14",
+    "Price": "66.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "09:41",
+    "Duration": "3时22分",
+    "TrainNumber": "T5687",
+    "ArrivalTime": "13:03",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "10:20",
+    "Duration": "1时38分",
+    "TrainNumber": "G9921",
+    "ArrivalTime": "11:58",
+    "Price": "148.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:15",
+    "Duration": "3时39分",
+    "TrainNumber": "K339",
+    "ArrivalTime": "14:54",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:23",
+    "Duration": "2时35分",
+    "TrainNumber": "C115",
+    "ArrivalTime": "13:58",
+    "Price": "92",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:35",
+    "Duration": "3时29分",
+    "TrainNumber": "K429",
+    "ArrivalTime": "15:04",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:49",
+    "Duration": "3时55分",
+    "TrainNumber": "K1301",
+    "ArrivalTime": "15:44",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "12:02",
+    "Duration": "2时12分",
+    "TrainNumber": "D503",
+    "ArrivalTime": "14:14",
+    "Price": "126.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "12:43",
+    "Duration": "1时49分",
+    "TrainNumber": "G489",
+    "ArrivalTime": "14:32",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "13:41",
+    "Duration": "1时52分",
+    "TrainNumber": "G8929",
+    "ArrivalTime": "15:33",
+    "Price": "162.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "13:52",
+    "Duration": "1时52分",
+    "TrainNumber": "D507",
+    "ArrivalTime": "15:44",
+    "Price": "126.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "13:58",
+    "Duration": "3时17分",
+    "TrainNumber": "K7717",
+    "ArrivalTime": "17:15",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "14:37",
+    "Duration": "3时7分",
+    "TrainNumber": "K1023",
+    "ArrivalTime": "17:44",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "14:45",
+    "Duration": "1时57分",
+    "TrainNumber": "G491",
+    "ArrivalTime": "16:42",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:02",
+    "Duration": "4时8分",
+    "TrainNumber": "K349",
+    "ArrivalTime": "19:10",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:09",
+    "Duration": "3时51分",
+    "TrainNumber": "K383",
+    "ArrivalTime": "19:00",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:41",
+    "Duration": "1时56分",
+    "TrainNumber": "G497",
+    "ArrivalTime": "17:37",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:43",
+    "Duration": "2时53分",
+    "TrainNumber": "Z14",
+    "ArrivalTime": "18:36",
+    "Price": "46.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:47",
+    "Duration": "2时24分",
+    "TrainNumber": "G9923",
+    "ArrivalTime": "18:11",
+    "Price": "148.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "16:25",
+    "Duration": "3时55分",
+    "TrainNumber": "K1303",
+    "ArrivalTime": "20:20",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "16:45",
+    "Duration": "3时11分",
+    "TrainNumber": "T17",
+    "ArrivalTime": "19:56",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:16",
+    "Duration": "2时31分",
+    "TrainNumber": "Z83",
+    "ArrivalTime": "20:47",
+    "Price": "135.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:22",
+    "Duration": "1时53分",
+    "TrainNumber": "G8931",
+    "ArrivalTime": "20:15",
+    "Price": "174.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:51",
+    "Duration": "2时21分",
+    "TrainNumber": "G8831",
+    "ArrivalTime": "21:12",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:58",
+    "Duration": "2时40分",
+    "TrainNumber": "T47",
+    "ArrivalTime": "21:38",
+    "Price": "89.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "21:32",
+    "Duration": "3时35分",
+    "TrainNumber": "K959",
+    "ArrivalTime": "01:07",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+}
+][
+
+][
+{
+    "DepartureTime": "12:43",
+    "Duration": null,
+    "ArrivalTime": "14:42",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "-"
+},
+{
+    "DepartureTime": "17:48",
+    "Duration": null,
+    "ArrivalTime": "20:15",
+    "Price": "122.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "-"
+},
+{
+    "DepartureTime": "13:35",
+    "Duration": null,
+    "ArrivalTime": "15:33",
+    "Price": "162.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "-"
+},
+{
+    "DepartureTime": "12:43",
+    "Duration": null,
+    "ArrivalTime": "14:54",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "-"
+},
+{
+    "DepartureTime": "12:13",
+    "Duration": null,
+    "ArrivalTime": "14:08",
+    "Price": "208",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "-"
+}
+][
+{
+    "DepartureTime": "12:43",
+    "Duration": null,
+    "ArrivalTime": "14:42",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "G489/G6273"
+},
+{
+    "DepartureTime": "17:48",
+    "Duration": null,
+    "ArrivalTime": "20:15",
+    "Price": "122.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "C135/G8931"
+},
+{
+    "DepartureTime": "13:35",
+    "Duration": null,
+    "ArrivalTime": "15:33",
+    "Price": "162.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "C2235/G8929"
+},
+{
+    "DepartureTime": "12:43",
+    "Duration": null,
+    "ArrivalTime": "14:54",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "G489/G2627"
+},
+{
+    "DepartureTime": "12:13",
+    "Duration": null,
+    "ArrivalTime": "14:08",
+    "Price": "208",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "C2571/G3485"
+}
+][
+{
+    "DepartureTime": "12:43",
+    "Duration": null,
+    "ArrivalTime": "14:42",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "G489/G6273"
+},
+{
+    "DepartureTime": "17:48",
+    "Duration": null,
+    "ArrivalTime": "20:15",
+    "Price": "122.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "C135/G8931"
+},
+{
+    "DepartureTime": "13:35",
+    "Duration": null,
+    "ArrivalTime": "15:33",
+    "Price": "162.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "C2235/G8929"
+},
+{
+    "DepartureTime": "12:43",
+    "Duration": null,
+    "ArrivalTime": "14:54",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "G489/G2627"
+},
+{
+    "DepartureTime": "12:13",
+    "Duration": null,
+    "ArrivalTime": "14:08",
+    "Price": "208",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "C2571/G3485"
+}
+][
+{
+    "DepartureTime": null,
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": null,
+    "Price": null,
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "00:22",
+    "Duration": "6时11分",
+    "TrainNumber": "K7731",
+    "ArrivalTime": "06:33",
+    "Price": "62.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "04:50",
+    "Duration": "6时37分",
+    "TrainNumber": "K4609",
+    "ArrivalTime": "11:27",
+    "Price": "62.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "06:00",
+    "Duration": "3时35分",
+    "TrainNumber": "T5685",
+    "ArrivalTime": "09:35",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "06:11",
+    "Duration": "4时57分",
+    "TrainNumber": "K4017",
+    "ArrivalTime": "11:08",
+    "Price": "62.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "08:15",
+    "Duration": "3时35分",
+    "TrainNumber": "K7719",
+    "ArrivalTime": "11:50",
+    "Price": "66.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": "2时1分",
+    "TrainNumber": "G8927",
+    "ArrivalTime": "11:01",
+    "Price": "162.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "09:19",
+    "Duration": "2时55分",
+    "TrainNumber": "T4161",
+    "ArrivalTime": "12:14",
+    "Price": "66.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "09:41",
+    "Duration": "3时22分",
+    "TrainNumber": "T5687",
+    "ArrivalTime": "13:03",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "10:20",
+    "Duration": "1时38分",
+    "TrainNumber": "G9921",
+    "ArrivalTime": "11:58",
+    "Price": "148.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:15",
+    "Duration": "3时39分",
+    "TrainNumber": "K339",
+    "ArrivalTime": "14:54",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:23",
+    "Duration": "2时35分",
+    "TrainNumber": "C115",
+    "ArrivalTime": "13:58",
+    "Price": "92",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:35",
+    "Duration": "3时29分",
+    "TrainNumber": "K429",
+    "ArrivalTime": "15:04",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "11:49",
+    "Duration": "3时55分",
+    "TrainNumber": "K1301",
+    "ArrivalTime": "15:44",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "12:02",
+    "Duration": "2时12分",
+    "TrainNumber": "D503",
+    "ArrivalTime": "14:14",
+    "Price": "126.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "12:43",
+    "Duration": "1时49分",
+    "TrainNumber": "G489",
+    "ArrivalTime": "14:32",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "13:41",
+    "Duration": "1时52分",
+    "TrainNumber": "G8929",
+    "ArrivalTime": "15:33",
+    "Price": "162.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "13:52",
+    "Duration": "1时52分",
+    "TrainNumber": "D507",
+    "ArrivalTime": "15:44",
+    "Price": "126.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "13:58",
+    "Duration": "3时17分",
+    "TrainNumber": "K7717",
+    "ArrivalTime": "17:15",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "14:37",
+    "Duration": "3时7分",
+    "TrainNumber": "K1023",
+    "ArrivalTime": "17:44",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "14:45",
+    "Duration": "1时57分",
+    "TrainNumber": "G491",
+    "ArrivalTime": "16:42",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:02",
+    "Duration": "4时8分",
+    "TrainNumber": "K349",
+    "ArrivalTime": "19:10",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:09",
+    "Duration": "3时51分",
+    "TrainNumber": "K383",
+    "ArrivalTime": "19:00",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:41",
+    "Duration": "1时56分",
+    "TrainNumber": "G497",
+    "ArrivalTime": "17:37",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:43",
+    "Duration": "2时53分",
+    "TrainNumber": "Z14",
+    "ArrivalTime": "18:36",
+    "Price": "46.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "15:47",
+    "Duration": "2时24分",
+    "TrainNumber": "G9923",
+    "ArrivalTime": "18:11",
+    "Price": "148.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "16:25",
+    "Duration": "3时55分",
+    "TrainNumber": "K1303",
+    "ArrivalTime": "20:20",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "16:45",
+    "Duration": "3时11分",
+    "TrainNumber": "T17",
+    "ArrivalTime": "19:56",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:16",
+    "Duration": "2时31分",
+    "TrainNumber": "Z83",
+    "ArrivalTime": "20:47",
+    "Price": "135.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:22",
+    "Duration": "1时53分",
+    "TrainNumber": "G8931",
+    "ArrivalTime": "20:15",
+    "Price": "174.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:51",
+    "Duration": "2时21分",
+    "TrainNumber": "G8831",
+    "ArrivalTime": "21:12",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "18:58",
+    "Duration": "2时40分",
+    "TrainNumber": "T47",
+    "ArrivalTime": "21:38",
+    "Price": "89.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "21:32",
+    "Duration": "3时35分",
+    "TrainNumber": "K959",
+    "ArrivalTime": "01:07",
+    "Price": "43.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛"
+},
+{
+    "DepartureTime": "12:43",
+    "Duration": null,
+    "ArrivalTime": "14:42",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "G489/G6273"
+},
+{
+    "DepartureTime": "17:48",
+    "Duration": null,
+    "ArrivalTime": "20:15",
+    "Price": "122.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "C135/G8931"
+},
+{
+    "DepartureTime": "13:35",
+    "Duration": null,
+    "ArrivalTime": "15:33",
+    "Price": "162.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "C2235/G8929"
+},
+{
+    "DepartureTime": "12:43",
+    "Duration": null,
+    "ArrivalTime": "14:54",
+    "Price": "163",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "G489/G2627"
+},
+{
+    "DepartureTime": "12:13",
+    "Duration": null,
+    "ArrivalTime": "14:08",
+    "Price": "208",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "秦皇岛",
+    "TrainNumber": "C2571/G3485"
+}
+][
+{
+    "DepartureTime": null,
+    "Duration": null,
+    "TrainNumber": null,
+    "ArrivalTime": null,
+    "Price": null,
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "06:10",
+    "Duration": "5时59分",
+    "TrainNumber": "G101",
+    "ArrivalTime": "12:09",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "06:20",
+    "Duration": "5时38分",
+    "TrainNumber": "G103",
+    "ArrivalTime": "11:58",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:00",
+    "Duration": "4时29分",
+    "TrainNumber": "G1",
+    "ArrivalTime": "11:29",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:17",
+    "Duration": "5时46分",
+    "TrainNumber": "G105",
+    "ArrivalTime": "13:03",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:25",
+    "Duration": "5时47分",
+    "TrainNumber": "G107",
+    "ArrivalTime": "13:12",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:40",
+    "Duration": "4时52分",
+    "TrainNumber": "G3",
+    "ArrivalTime": "12:32",
+    "Price": "671",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "07:45",
+    "Duration": "6时4分",
+    "TrainNumber": "G109",
+    "ArrivalTime": "13:49",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "08:00",
+    "Duration": "4时32分",
+    "TrainNumber": "G3",
+    "ArrivalTime": "12:32",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "08:39",
+    "Duration": "6时22分",
+    "TrainNumber": "G113",
+    "ArrivalTime": "15:01",
+    "Price": "572",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": "4时37分",
+    "TrainNumber": "G5",
+    "ArrivalTime": "13:37",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:10",
+    "Duration": "5时38分",
+    "TrainNumber": "G115",
+    "ArrivalTime": "14:48",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:20",
+    "Duration": "5时35分",
+    "TrainNumber": "G117",
+    "ArrivalTime": "14:55",
+    "Price": "553",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "09:24",
+    "Duration": "6时7分",
+    "TrainNumber": "G119",
+    "ArrivalTime": "15:31",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G7",
+    "ArrivalTime": "14:35",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:05",
+    "Duration": "5时37分",
+    "TrainNumber": "G121",
+    "ArrivalTime": "15:42",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "10:48",
+    "Duration": "6时2分",
+    "TrainNumber": "G125",
+    "ArrivalTime": "16:50",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:00",
+    "Duration": "4时37分",
+    "TrainNumber": "G9",
+    "ArrivalTime": "15:37",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:05",
+    "Duration": "6时3分",
+    "TrainNumber": "G127",
+    "ArrivalTime": "17:08",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:18",
+    "Duration": "6时20分",
+    "TrainNumber": "G129",
+    "ArrivalTime": "17:38",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:27",
+    "Duration": "5时55分",
+    "TrainNumber": "G131",
+    "ArrivalTime": "17:22",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "11:50",
+    "Duration": "6时12分",
+    "TrainNumber": "G133",
+    "ArrivalTime": "18:02",
+    "Price": "604",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:00",
+    "Duration": "4时38分",
+    "TrainNumber": "G11",
+    "ArrivalTime": "16:38",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:01",
+    "Duration": "18时44分",
+    "TrainNumber": "1461",
+    "ArrivalTime": "06:45",
+    "Price": "156.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:08",
+    "Duration": "7时50分",
+    "TrainNumber": "G2573",
+    "ArrivalTime": "19:58",
+    "Price": "581",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:12",
+    "Duration": "6时9分",
+    "TrainNumber": "G135",
+    "ArrivalTime": "18:21",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "12:47",
+    "Duration": "6时12分",
+    "TrainNumber": "G137",
+    "ArrivalTime": "18:59",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G13",
+    "ArrivalTime": "17:35",
+    "Price": "667",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:04",
+    "Duration": "6时2分",
+    "TrainNumber": "G139",
+    "ArrivalTime": "19:06",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "13:34",
+    "Duration": "6时34分",
+    "TrainNumber": "G141",
+    "ArrivalTime": "20:08",
+    "Price": "630",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:00",
+    "Duration": "4时32分",
+    "TrainNumber": "G15",
+    "ArrivalTime": "18:32",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:27",
+    "Duration": "6时16分",
+    "TrainNumber": "G147",
+    "ArrivalTime": "20:43",
+    "Price": "598",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "15:00",
+    "Duration": "4时34分",
+    "TrainNumber": "G17",
+    "ArrivalTime": "19:34",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:00",
+    "Duration": "4时28分",
+    "TrainNumber": "G19",
+    "ArrivalTime": "20:28",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:30",
+    "Duration": "5时57分",
+    "TrainNumber": "G153",
+    "ArrivalTime": "22:27",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "16:53",
+    "Duration": "6时20分",
+    "TrainNumber": "G157",
+    "ArrivalTime": "23:13",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:00",
+    "Duration": "4时18分",
+    "TrainNumber": "G21",
+    "ArrivalTime": "21:18",
+    "Price": "662",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:19",
+    "Duration": "5时59分",
+    "TrainNumber": "G159",
+    "ArrivalTime": "23:18",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "17:33",
+    "Duration": "6时11分",
+    "TrainNumber": "G161",
+    "ArrivalTime": "23:44",
+    "Price": "576",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "18:00",
+    "Duration": "4时43分",
+    "TrainNumber": "G23",
+    "ArrivalTime": "22:43",
+    "Price": "631",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "18:04",
+    "Duration": "4时54分",
+    "TrainNumber": "G25",
+    "ArrivalTime": "22:58",
+    "Price": "626",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:00",
+    "Duration": "4时35分",
+    "TrainNumber": "G27",
+    "ArrivalTime": "23:35",
+    "Price": "669",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:16",
+    "Duration": "12时15分",
+    "TrainNumber": "D17",
+    "ArrivalTime": "07:31",
+    "Price": "344",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:21",
+    "Duration": "12时59分",
+    "TrainNumber": "Z281",
+    "ArrivalTime": "08:20",
+    "Price": "177.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:22",
+    "Duration": "12时3分",
+    "TrainNumber": "D7",
+    "ArrivalTime": "07:25",
+    "Price": "338",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "19:36",
+    "Duration": "12时24分",
+    "TrainNumber": "D9",
+    "ArrivalTime": "08:00",
+    "Price": "317",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "20:03",
+    "Duration": "14时59分",
+    "TrainNumber": "T109",
+    "ArrivalTime": "11:02",
+    "Price": "177.5",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "21:15",
+    "Duration": "12时30分",
+    "TrainNumber": "D11",
+    "ArrivalTime": "09:45",
+    "Price": "321",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "21:21",
+    "Duration": "12时6分",
+    "TrainNumber": "D5",
+    "ArrivalTime": "09:27",
+    "Price": "383",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海"
+},
+{
+    "DepartureTime": "14:00",
+    "Duration": null,
+    "ArrivalTime": "18:42",
+    "Price": "672",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海",
+    "TrainNumber": "G15/G1825"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": null,
+    "ArrivalTime": "13:53",
+    "Price": "666",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海",
+    "TrainNumber": "G5/G1809"
+},
+{
+    "DepartureTime": "14:00",
+    "Duration": null,
+    "ArrivalTime": "18:59",
+    "Price": "668",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海",
+    "TrainNumber": "G15/G137"
+},
+{
+    "DepartureTime": "18:04",
+    "Duration": null,
+    "ArrivalTime": "23:13",
+    "Price": "632",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海",
+    "TrainNumber": "G25/G157"
+},
+{
+    "DepartureTime": "09:00",
+    "Duration": null,
+    "ArrivalTime": "14:06",
+    "Price": "666",
+    "Distance": "-",
+    "OriginCity": "北京",
+    "DestCity": "上海",
+    "TrainNumber": "G5/G1775"
+}
+]

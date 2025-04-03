@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+    background: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin: 1rem 0;
+}
+
+header i {
+    font-size: 3rem;
+    color: #3498db;
+}
+
+.form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 150px;
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+.form-group label i {
+    margin-right: 8px;
+    color: #3498db;
+}
+
+input {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52,152,219,0.3);
+}
+
+.submit-btn {
+    background: #3498db;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.submit-btn:hover {
+    background: #2980b9;
+}
+
+.submit-btn:disabled {
+    background: #95a5a6;
+    cursor: not-allowed;
+}
+
+.submit-btn i {
+    margin-right: 8px;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.progress-step {
+    text-align: center;
+    color: #95a5a6;
+    transition: all 0.3s ease;
+}
+
+.progress-step.active {
+    color: #3498db;
+}
+
+.progress-step i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.result-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.result-container h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.result-container h2 i {
+    margin-right: 10px;
+    color: #3498db;
+}
+
+.plan-content {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    white-space: pre-wrap;
+}
+
+.error-message {
+    background: #ff7675;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.error-message i {
+    margin-right: 8px;
+}
