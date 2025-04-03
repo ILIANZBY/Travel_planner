@@ -8,39 +8,26 @@ from openai import OpenAI
 
 
 def Get_LLM_Planning(prompt):
-
-    # # 设置基础URL
-    # openai.api_base = 'https://api.deepbricks.ai/v1'
-    # # 设置API密钥
-    # openai.api_key = 'sk-GPu5b7DsJFXadLt5gHMsqm9EJXGYCT8QClOl7tiUm9QJI0s0'
-
-    # openai.api_base = "https://api.deepseek.com/v1"
-    # openai.api_key = "sk-abc4f46251954d7c84f4b4c6fab7aea6"
-
-    # response = openai.ChatCompletion.create(
-    #     #model="gpt-4o",
-    #     model="deepseek-chat",
-    #     messages=[
-    #         {"role": "user", "content": prompt}
-    #     ]
-    # )
-    client = OpenAI(api_key="sk-b76592d22c684cc791b0cf5273fed995", base_url="https://api.deepseek.com")
+    client = OpenAI(
+        api_key="sk-b76592d22c684cc791b0cf5273fed995", 
+        base_url="https://api.deepseek.com"
+    )
 
     response = client.chat.completions.create(
         model="deepseek-chat",
         messages=[
             {"role": "user", "content": prompt},
         ],
-        stream=False
+        stream=True  # 启用流式输出
     )
-    # 获取生成的查询
-    # generated_plan = response['choices'][0]['message']['content'].strip()
-    generated_plan =response.choices[0].message.content.strip()
+
+    generated_plan = ""
+    for chunk in response:
+        if chunk.choices[0].delta.content:
+            generated_plan += chunk.choices[0].delta.content
+
     generated_plan_cleaned = re.sub(r"```(?:json)?\n?|```", "", generated_plan).strip()
-
-    # 打印查询结果
     print(generated_plan_cleaned)
-
     return generated_plan_cleaned
 
 if __name__=="__main__":

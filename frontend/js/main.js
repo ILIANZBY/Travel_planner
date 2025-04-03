@@ -13,7 +13,17 @@ new Vue({
         loading: false,
         replanning: false,
         currentStep: 0,
-        planMode: 'direct'
+        planMode: 'direct',
+        // 添加爬虫结果数据
+        crawlStats: {
+            flights: { departure: 0, return: 0 },
+            trains: { departure: 0, return: 0 },
+            attractions: 0,
+            hotels: 0
+        },
+        // 添加流式输出状态
+        streamOutput: '',
+        isStreaming: false
     },
     methods: {
         async startPlanning() {
@@ -40,11 +50,26 @@ new Vue({
             this.loading = true;
             this.error = null;
             this.currentStep = 1;
+            this.streamOutput = '';
+            this.isStreaming = true;
 
             try {
-                setTimeout(() => this.currentStep = 2, 1000);
+                // 获取爬虫统计数据
+                const statsResponse = await fetch('http://localhost:5000/api/crawl-stats', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(this.formData)
+                });
+                
+                const statsData = await statsResponse.json();
+                if (statsData.status === 'success') {
+                    this.crawlStats = statsData.stats;
+                }
 
-                const response = await fetch('http://localhost:5000/api/generate-plan', {
+                // 开始生成计划（流式输出）
+                const response = await fetch('http://localhost:5000/api/generate-plan-stream', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -52,22 +77,29 @@ new Vue({
                     body: JSON.stringify(this.formData)
                 });
 
-                const data = await response.json();
-                
-                this.currentStep = 3;
-                
-                if (data.status === 'success') {
-                    this.result = data.plan;
-                } else {
-                    this.error = data.message || '生成计划失败';
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+
+                while (true) {
+                    const {value, done} = await reader.read();
+                    if (done) break;
+                    
+                    const text = decoder.decode(value);
+                    this.streamOutput += text;
                 }
+
+                this.currentStep = 3;
+                this.result = this.streamOutput;
+                
             } catch (err) {
                 this.error = '网络请求失败: ' + err.message;
             } finally {
                 this.loading = false;
+                this.isStreaming = false;
             }
         },
 
+        // 修改generateReactivePlan方法也使用流式输出
         async generateReactivePlan() {
             if (this.loading) return;
             
@@ -82,11 +114,26 @@ new Vue({
             this.loading = true;
             this.error = null;
             this.currentStep = 1;
+            this.streamOutput = '';
+            this.isStreaming = true;
 
             try {
-                setTimeout(() => this.currentStep = 2, 1000);
+                // 获取爬虫统计数据
+                const statsResponse = await fetch('http://localhost:5000/api/crawl-stats', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(this.formData)
+                });
+                
+                const statsData = await statsResponse.json();
+                if (statsData.status === 'success') {
+                    this.crawlStats = statsData.stats;
+                }
 
-                const response = await fetch('http://localhost:5000/api/replan', {
+                // 开始生成计划（流式输出）
+                const response = await fetch('http://localhost:5000/api/replan-stream', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -97,19 +144,25 @@ new Vue({
                     })
                 });
 
-                const data = await response.json();
-                
-                this.currentStep = 3;
-                
-                if (data.status === 'success') {
-                    this.result = data.plan;
-                } else {
-                    this.error = data.message || '生成计划失败';
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+
+                while (true) {
+                    const {value, done} = await reader.read();
+                    if (done) break;
+                    
+                    const text = decoder.decode(value);
+                    this.streamOutput += text;
                 }
+
+                this.currentStep = 3;
+                this.result = this.streamOutput;
+                
             } catch (err) {
                 this.error = '网络请求失败: ' + err.message;
             } finally {
                 this.loading = false;
+                this.isStreaming = false;
             }
         },
 

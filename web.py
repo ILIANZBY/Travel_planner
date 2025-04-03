@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timedelta
 from SolePlanning import Get_LLM_Planning
 from BuildPrompt import BuildQuery, Prompts
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, Response, stream_with_context
 from flask_cors import CORS
 from srp import JsonReact
 app = Flask(__name__)
@@ -149,6 +149,83 @@ def replan():
             "status": "error",
             "message": str(e)
         }), 400
+
+
+@app.route('/api/crawl-stats', methods=['POST'])
+def get_crawl_stats():
+    try:
+        data = request.get_json()
+        # 这里添加获取实际爬虫统计的逻辑
+        stats = {
+            "flights": {"departure": 10, "return": 8},
+            "trains": {"departure": 15, "return": 12},
+            "attractions": 20,
+            "hotels": 25
+        }
+        return jsonify({
+            "status": "success",
+            "stats": stats
+        })
+    except Exception as e:
+        return jsonify({
+            "status": "error", 
+            "message": str(e)
+        }), 400
+
+@app.route('/api/generate-plan-stream', methods=['POST'])
+def generate_plan_stream():
+    def generate():
+        try:
+            data = request.get_json()
+            prompt = Prompts(
+                Origin_City=data['origin'],
+                Dest_City=data['destination'],
+                Begin_Date=data['start_date'],
+                Final_Date=(datetime.strptime(data['start_date'], '%Y-%m-%d') + 
+                          timedelta(days=int(data['days'])-1)).strftime('%Y-%m-%d'),
+                Duration=int(data['days']),
+                Budget=float(data['budget'])
+            )
+            plan = Get_LLM_Planning(prompt)
+            yield plan
+        except Exception as e:
+            yield str(e)
+
+    return Response(stream_with_context(generate()), 
+                   mimetype='text/plain')
+
+@app.route('/api/replan-stream', methods=['POST'])  
+def replan_stream():
+    def generate():
+        try:
+            data = request.get_json()
+            test_entry = {
+                "org": data['origin'],
+                "dest": data['destination'],
+                "start_date": data['start_date'],
+                "days": int(data['days']),
+                "budget": float(data['budget']),
+                "previous_plan": data.get('previous_plan')
+            }
+            
+            reactor = JsonReact()
+            prompt = Prompts(
+                Origin_City=data['origin'],
+                Dest_City=data['destination'],
+                Begin_Date=data['start_date'],
+                Final_Date=(datetime.strptime(data['start_date'], '%Y-%m-%d') + 
+                          timedelta(days=int(data['days'])-1)).strftime('%Y-%m-%d'),
+                Duration=int(data['days']),
+                Budget=float(data['budget'])
+            )
+            
+            new_plan = reactor.run(str(prompt), "Generate travel plan", test_entry)
+            yield json.dumps(new_plan) if isinstance(new_plan, dict) else new_plan
+        except Exception as e:
+            yield str(e)
+            
+    return Response(stream_with_context(generate()), 
+                   mimetype='text/plain')
 
 
 if __name__ == '__main__':
