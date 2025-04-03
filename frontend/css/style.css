@@ -163,3 +163,110 @@ input:focus {
 .error-message i {
     margin-right: 8px;
 }
+
+.plan-actions {
+    margin: 1rem 0;
+}
+
+.replan-btn {
+    background: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.replan-btn:hover {
+    background: #27ae60;
+}
+
+.replan-btn:disabled {
+    background: #95a5a6;
+    cursor: not-allowed;
+}
+
+.replan-btn i {
+    margin-right: 8px;
+}
+/* 在文件末尾添加 */
+.button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.primary-btn {
+    background: #3498db;
+}
+
+.primary-btn:hover {
+    background: #2980b9;
+}
+
+.secondary-btn {
+    background: #2ecc71;
+}
+
+.secondary-btn:hover {
+    background: #27ae60;
+}
+
+.submit-btn {
+    flex: 1;
+    margin-top: 0;
+}
+/* 在文件末尾添加 */
+.mode-selector {
+    margin-top: 1.5rem;
+}
+
+.mode-options {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mode-btn {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: white;
+    color: #666;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.mode-btn:hover {
+    border-color: #3498db;
+    color: #3498db;
+}
+
+.mode-btn.active {
+    background: #3498db;
+    color: white;
+    border-color: #3498db;
+}
+
+.mode-btn i {
+    font-size: 0.9rem;
+}
+
+.submit-btn {
+    width: 100%;
+    margin-top: 1rem;
+    background: #3498db;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}

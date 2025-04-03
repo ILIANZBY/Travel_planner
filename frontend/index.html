@@ -37,10 +37,33 @@ frontend/index.html
                     <label><i class="fas fa-money-bill-wave"></i> 预算（元）：</label>
                     <input v-model="formData.budget" type="number" min="0">
                 </div>
-                <button @click="generatePlan" :disabled="loading" class="submit-btn">
-                    <i :class="loading ? 'fas fa-spinner fa-spin' : 'fas fa-paper-plane'"></i>
-                    {{ loading ? '生成中...' : '生成旅行计划' }}
-                </button>
+
+                <div class="mode-selector">
+                    <div class="mode-options">
+                        <button 
+                            @click="planMode = 'direct'" 
+                            :class="['mode-btn', { active: planMode === 'direct' }]"
+                        >
+                            <i class="fas fa-paper-plane"></i>
+                            直接规划
+                        </button>
+                        <button 
+                            @click="planMode = 'reactive'" 
+                            :class="['mode-btn', { active: planMode === 'reactive' }]"
+                        >
+                            <i class="fas fa-sync"></i>
+                            反馈规划
+                        </button>
+                    </div>
+                    <button 
+                        @click="startPlanning" 
+                        :disabled="loading" 
+                        class="submit-btn"
+                    >
+                        <i :class="loading ? 'fas fa-spinner fa-spin' : 'fas fa-magic'"></i>
+                        {{ loading ? '生成中...' : '开始规划' }}
+                    </button>
+                </div>
             </div>
             
             <!-- 进度提示 -->
@@ -59,13 +82,14 @@ frontend/index.html
                 </div>
             </div>
 
+        
             <div v-if="result" class="result-container">
                 <h2><i class="fas fa-route"></i> 您的专属旅行计划</h2>
+
                 <div class="plan-content">
                     <pre>{{ JSON.stringify(result, null, 2) }}</pre>
                 </div>
             </div>
-            
             <div v-if="error" class="error-message">
                 <i class="fas fa-exclamation-triangle"></i>
                 {{ error }}
